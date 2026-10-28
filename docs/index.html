@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="造物间 ZAOWU：本地游戏创作与项目管理 AI 工作台。接续已有工程，协调创作工具，管理任务、资产版本和项目快照。">
+  <meta name="theme-color" content="#142023">
+  <meta property="og:title" content="造物间 · ZAOWU — 游戏创作，在一处连接">
+  <meta property="og:description" content="接续 Unreal / Unity 工程，把 AI 对话、美术、音乐、建模与项目交付放在同一个本地工作台。">
+  <title>造物间 · ZAOWU — 游戏创作，在一处连接</title>
+  <link rel="icon" href="site/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site/style.css">
+  <script type="module" src="site/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-copy="skip">跳到正文</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#" aria-label="ZAOWU"><img src="site/mark.svg" alt="" width="36" height="36"><span><strong data-copy="brand">造物间</strong><small>ZAOWU · GAME CREATION</small></span></a>
+      <nav aria-label="Navigation"><a href="#features" data-copy="navFeatures">能做什么</a><a href="#workflow" data-copy="navWorkflow">如何开始</a><a href="#download" data-copy="navDownload">下载</a><a href="#questions" data-copy="navQuestions">常见问题</a></nav>
+      <div class="header-actions"><button id="language-toggle" type="button" aria-label="Switch interface language">English</button><a class="github-link" href="https://github.com/Berserker-Gandalf/game-creation-workbench" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> LOCAL-FIRST · CREATOR-LED</p>
+        <h1><span data-copy="heroLine1">你的游戏创作，</span><br><span class="copper" data-copy="heroLine2">在这里连起来。</span></h1>
+        <p class="hero-description" data-copy="heroDescription">接续已有 Unreal / Unity 工程，把 AI 对话、美术、音乐、建模与项目交付，放在同一个本地工作台。</p>
+        <div class="hero-actions"><a class="button primary" href="#download"><span data-copy="heroDownload">下载 Windows 预览版</span><span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/Berserker-Gandalf/game-creation-workbench/blob/main/docs/USER_GUIDE.md" target="_blank" rel="noopener noreferrer"><span data-copy="heroGuide">先看使用指南</span> <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-note"><span data-release-version>v0.19.0</span> <span data-copy="heroNote">预览版 · Windows x64 · 简体中文 / English</span></p>
+        <div class="hero-values"><span data-copy="valueLocal">项目留在本机</span><span data-copy="valuePermissions">权限由你选择</span><span data-copy="valueSource">MIT 开源</span></div>
+      </div>
+      <figure class="hero-figure">
+        <div class="screen-label"><span class="tiny-mark" aria-hidden="true">Z</span><span data-copy="screenLabel">一个工作空间，保留创作的来龙去脉。</span></div>
+        <img id="hero-image" src="verification/workbench-preferences-zh-v0.17.png" width="1280" height="720" alt="造物间示例项目：项目总览、AI 会话与任务进度" fetchpriority="high">
+        <figcaption><span data-copy="screenCaption">真实界面 · 示例项目</span><span>DESIGN → CREATE → DELIVER</span></figcaption>
+      </figure>
+    </section>
+    <section class="integrations wrap" aria-label="Optional integrations"><p data-copy="integrations">选择需要的工具，让它们围绕同一个项目工作。</p><div><span>Codex</span><span>OpenAI</span><span>DeepSeek</span><span>WebUI</span><span>Blender</span><span>Suno.cn</span><span>Tripo</span></div></section>
+
+    <section class="features wrap section-space" id="features">
+      <div class="section-heading"><div><p class="eyebrow">A PLACE FOR THE WHOLE PROCESS</p><h2 data-copy="featuresTitle">不止生成资产，也把项目管起来。</h2></div><p data-copy="featuresIntro">想法、讨论、产出和验收各有位置。下一次打开项目，能够接着上一次继续。</p></div>
+      <div class="feature-grid">
+        <article><span class="feature-number">01 / CONTINUE</span><h3 data-copy="feature1Title">从已有工程继续</h3><p data-copy="feature1Body">接入主工程与附加资料目录，最多 8 个来源。原位登记设计与资产，不必重新开始。</p><div class="feature-tags"><span>Unreal Engine</span><span>Unity</span></div></article>
+        <article><span class="feature-number">02 / COLLABORATE</span><h3 data-copy="feature2Title">让讨论保留上下文</h3><p data-copy="feature2Body">项目、音乐与建模负责人分别协作。会话历史、资料回查和 Markdown 留存，让决定能够接续。</p><div class="feature-tags"><span data-copy="tagModels">模型与推理强度</span><span>MCP</span></div></article>
+        <article><span class="feature-number">03 / CREATE</span><h3 data-copy="feature3Title">让多种创作连接起来</h3><p data-copy="feature3Body">管理绘画模型与 LoRA，准备音乐和 3D 方案。审阅产出，再把采用的版本纳入项目资产。</p><div class="feature-tags"><span data-copy="tagArt">美术</span><span data-copy="tagMusic">音乐</span><span>3D</span></div></article>
+        <article><span class="feature-number">04 / DELIVER</span><h3 data-copy="feature4Title">把成果留得清楚</h3><p data-copy="feature4Body">统一作业、任务关联、固定资产版本与验收记录。通过可校验快照和独立恢复留住进度。</p><div class="feature-tags"><span>SHA-256</span><span data-copy="tagSnapshots">工程快照</span></div></article>
+      </div>
+    </section>
+
+    <section class="workflow-section" id="workflow"><div class="wrap section-space">
+      <div class="section-heading"><div><p class="eyebrow">START SMALL. KEEP GOING.</p><h2 data-copy="workflowTitle">先用起来，再按需启用工具。</h2></div><p data-copy="workflowIntro">没有 AI 账号，也能先使用项目、设计和任务管理。</p></div>
+      <ol class="workflow"><li><span>01</span><h3 data-copy="step1Title">安装，打开工作台</h3><p data-copy="step1Body">Windows 安装包自带基础 Python 环境。首次向导可创建免费的本机练习项目。</p></li><li><span>02</span><h3 data-copy="step2Title">接入项目与创作工具</h3><p data-copy="step2Body">从系统窗口选择目录。按需装配支持工具，并在官方页面完成本人的账号授权。</p></li><li><span>03</span><h3 data-copy="step3Title">审阅产出，记录交付</h3><p data-copy="step3Body">将采用的文件关联任务，记录验收依据，保存完整工程快照，再继续下一步。</p></li></ol>
+      <a class="text-link dark-link" href="https://github.com/Berserker-Gandalf/game-creation-workbench/blob/main/docs/WINDOWS_APP_AND_SETUP.md" target="_blank" rel="noopener noreferrer"><span data-copy="setupGuide">阅读完整安装与装配指南</span> <span aria-hidden="true">↗</span></a>
+    </div></section>
+
+    <section class="preview-section wrap section-space" id="preview">
+      <div class="section-heading"><div><p class="eyebrow">INSIDE ZAOWU</p><h2 data-copy="previewTitle">看得见项目，也看得见准备状态。</h2></div><div class="preview-tabs" role="tablist" aria-label="Screenshots"><button type="button" role="tab" id="tab-workspace" aria-controls="preview-panel" aria-selected="true" data-view="workspace" data-copy="viewWorkspace">项目工作空间</button><button type="button" role="tab" id="tab-hardware" aria-controls="preview-panel" aria-selected="false" tabindex="-1" data-view="hardware" data-copy="viewHardware">WebUI 硬件预检</button></div></div>
+      <figure class="preview-frame" id="preview-panel" role="tabpanel" aria-labelledby="tab-workspace"><img id="preview-image" src="verification/workbench-preferences-zh-v0.17.png" width="1280" height="720" alt="造物间示例项目工作空间" loading="lazy"><figcaption><p id="preview-caption" data-copy="workspaceCaption">会话、项目资料与进度同屏；执行权限按会话保存，修改由你决定。</p><button id="expand-preview" type="button" data-copy="expandImage">查看大图 ↗</button></figcaption></figure>
+    </section>
+
+    <section class="download-section" id="download"><div class="wrap section-space">
+      <div class="section-heading"><div><p class="eyebrow">MAKE ROOM FOR YOUR NEXT GAME</p><h2 data-copy="downloadTitle">选择适合你的开始方式。</h2></div><p data-copy="downloadIntro">当前为本机单用户实验版。外部服务、模型和引擎仍按各自规则授权与计费。</p></div>
+      <div class="release-line"><span class="status-dot" aria-hidden="true"></span><span data-release-version>v0.19.0</span><span id="release-status" role="status" data-copy="releaseLoading">正在读取发布信息…</span><a id="release-link" href="https://github.com/Berserker-Gandalf/game-creation-workbench/releases" target="_blank" rel="noopener noreferrer" data-copy="releaseHistory">全部版本 ↗</a></div>
+      <div class="download-grid">
+        <article class="download-card recommended"><p class="download-kicker" data-copy="recommended">推荐 · 第一次使用</p><h3 data-copy="installerTitle">Windows 安装包</h3><p data-copy="installerBody">图形安装，自带 Python 和完整界面。安装后从开始菜单打开或正常停止工作台。</p><p class="download-meta">Windows x64 <span>·</span> <span data-download-size="installer">—</span></p><a class="button primary" data-download="installer" href="https://github.com/Berserker-Gandalf/game-creation-workbench/releases"><span data-download-label="installer">前往发布页</span><span aria-hidden="true">↓</span></a><a class="checksum-link" data-checksum="installer" href="https://github.com/Berserker-Gandalf/game-creation-workbench/releases" data-copy="checksumFallback">在发布页查看校验文件 ↗</a></article>
+        <article class="download-card"><p class="download-kicker" data-copy="portableKicker">完整解压后使用</p><h3 data-copy="portableTitle">Windows 免安装包</h3><p data-copy="portableBody">保留完整目录，打开 ZAOWU.exe 即可。程序可以另放位置，默认用户数据独立保存。</p><p class="download-meta">Windows x64 <span>·</span> <span data-download-size="portable">—</span></p><a class="button secondary" data-download="portable" href="https://github.com/Berserker-Gandalf/game-creation-workbench/releases"><span data-download-label="portable">前往发布页</span><span aria-hidden="true">↓</span></a><a class="checksum-link" data-checksum="portable" href="https://github.com/Berserker-Gandalf/game-creation-workbench/releases" data-copy="checksumFallback">在发布页查看校验文件 ↗</a></article>
+        <article class="download-card"><p class="download-kicker" data-copy="sourceKicker">面向开发者</p><h3 data-copy="sourceTitle">源码与预构建界面</h3><p data-copy="sourceBody">查看实现、修改工作台或参与开发。此包不含 Python，需要准备锁定的基础依赖。</p><p class="download-meta">Source ZIP <span>·</span> <span data-download-size="source">—</span></p><a class="button secondary" data-download="source" href="https://github.com/Berserker-Gandalf/game-creation-workbench/releases"><span data-download-label="source">前往发布页</span><span aria-hidden="true">↓</span></a><a class="checksum-link" data-checksum="source" href="https://github.com/Berserker-Gandalf/game-creation-workbench/releases" data-copy="checksumFallback">在发布页查看校验文件 ↗</a></article>
+      </div>
+      <p class="download-note" data-copy="downloadNote">预览版安装包尚未签名。干净系统、部分真实 API、收费生成和引擎运行仍需独立验收；下载文件不包含模型权重或第三方游戏工程。</p>
+    </div></section>
+
+    <section class="questions wrap section-space" id="questions"><div><p class="eyebrow">BEFORE YOU START</p><h2 data-copy="questionsTitle">把开始前的问题，先说清楚。</h2><p data-copy="questionsIntro">更多操作与技术细节，都在仓库手册里。</p><a class="text-link" href="https://github.com/Berserker-Gandalf/game-creation-workbench/issues" target="_blank" rel="noopener noreferrer"><span data-copy="feedback">反馈问题</span> ↗</a></div><div class="faq-list">
+      <details><summary data-copy="faq1Q">需要先安装 Python 或 Node 吗？</summary><p data-copy="faq1A">Windows 应用附件自带基础 Python 环境，核心项目管理无需另装 Python 或 Node。可选工具按需装配；源码开发环境按手册准备。</p></details>
+      <details><summary data-copy="faq2Q">已经做了一部分的游戏可以接入吗？</summary><p data-copy="faq2A">可以选择主工程与附加资料目录，合计最多 8 个来源。接入先扫描预览，原资产留在原处；选择目录不会自动运行工程。</p></details>
+      <details><summary data-copy="faq3Q">是否需要连接全部 AI 服务？</summary><p data-copy="faq3A">不需要。可以先管理设计、任务与本地资产，再选择需要的服务。云端创作按供应商规则计费，自动积分消费需要单独授权。</p></details>
+      <details><summary data-copy="faq4Q">能在这个网站里直接创作游戏吗？</summary><p data-copy="faq4A">本站提供介绍、文档和软件下载。工作台在你的电脑上运行，项目由本机管理；外部模型或创作服务按你选择的接口连接。</p></details>
+      <details><summary data-copy="faq5Q">软件与模型的许可如何区分？</summary><p data-copy="faq5A">工作台源码采用 MIT 许可。Python、依赖、模型、引擎、服务和用户资产保留各自许可；本项目不是这些供应商的官方产品。</p></details>
+    </div></section>
+  </main>
+  <footer class="wrap site-footer"><a class="brand" href="#"><img src="site/mark.svg" alt="" width="30" height="30"><span><strong data-copy="brand">造物间</strong><small>ZAOWU · GAME CREATION</small></span></a><p data-copy="footerNote">为创作留出空间，也为每一步留下依据。</p><div><a href="https://github.com/Berserker-Gandalf/game-creation-workbench" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://github.com/Berserker-Gandalf/game-creation-workbench/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License ↗</a></div></footer>
+  <dialog id="preview-dialog" aria-label="Screenshot preview"><button id="close-preview" type="button" data-copy="closeImage">关闭预览 ×</button><img id="dialog-image" alt=""></dialog>
+</body>
+</html>
