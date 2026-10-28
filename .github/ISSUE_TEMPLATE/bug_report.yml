@@ -1,10 +1,24 @@
-# Reference only. The server does not automatically load .env files.
-# Set these variables in the terminal before starting the server.
-OPENAI_API_KEY=
-DEEPSEEK_API_KEY=
-TRIPO_API_KEY=
-GITHUB_API_KEY=
-# Optional: keep runtime data outside the checkout. Use an absolute path.
-WORKBENCH_DATA=
-# Optional absolute path to the official Codex executable.
-CODEX_EXECUTABLE=
+name: Bug report / 问题反馈
+description: Report a reproducible workbench issue without private data.
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境与版本
+      description: 工作台、操作系统、Python、Node、引擎和 Codex CLI 版本。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤与预期结果
+      description: 请使用独立测试工程复现。
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果与脱敏日志
+      description: 不要上传 API Key、令牌、账号信息、真实游戏工程或整个 .workbench 目录。
+    validations:
+      required: true
