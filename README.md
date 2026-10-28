@@ -119,5 +119,6 @@ python -X utf8 scripts/package_release.py
 
 源码采用 [MIT License](LICENSE)，依赖声明见 [第三方许可](THIRD_PARTY_NOTICES.md)。供应商服务、模型、引擎与用户资产各自遵循原有许可。本项目不是 OpenAI、DeepSeek、Epic、Unity、SUNO 或 Tripo 的官方产品。
 
-##独立游戏创作同好交流
+## 独立游戏创作同好交流
+
 造物间（AI协作游戏开发）QQ群：1079128787
