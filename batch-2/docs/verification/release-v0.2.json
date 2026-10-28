@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-25",
+  "automated_tests": 23,
+  "backend_tests_passed": true,
+  "frontend_clean_install_and_build": true,
+  "public_file_check_passed": true,
+  "package_hashes_verified": true,
+  "fresh_python_environment_installed": true,
+  "extracted_package_ui_api_project_and_shutdown": true,
+  "browser_checks": [
+    "dependency_block",
+    "cycle_rejection",
+    "save_and_reload_relationships",
+    "design_revision_acknowledgement",
+    "image_ai_edit_form"
+  ],
+  "paid_api_calls_this_release": false,
+  "github_pushed": false,
+  "github_ci_executed": false,
+  "known_limits": [
+    "Unity runtime awaits license",
+    "OpenAI and DeepSeek live API checks await credentials",
+    "SUNO API and general GUI agent not implemented",
+    "Large lazy 3D chunk and TestClient deprecation warning remain"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "version": "0.18.0",
+  "date": "2026-10-27",
+  "scope": "First-run guidance, fixed optional-tool setup, reusable prebuilt UI and free practice project",
+  "automated": {
+    "python_tests_passed": 202,
+    "new_onboarding_cases": 13,
+    "python_seconds": 113.25,
+    "existing_deprecation_warnings": 1,
+    "typescript_and_production_build": "passed",
+    "english_mappings": 1990,
+    "source_translation_uses": 1385,
+    "build_metadata": "version and per-file SHA-256",
+    "native_windows_setup_check": "passed in Chinese/space path with simulated missing Python/Node; corrupted UI detected",
+    "native_current_environment_dry_run": {
+      "python_found": true,
+      "prebuilt_ready": true,
+      "node_required": false,
+      "core_dependencies_ready": true
+    }
+  },
+  "browser": {
+    "fresh_isolated_database": true,
+    "viewport": [
+      1280,
+      720
+    ],
+    "first_run_guide_automatic": true,
+    "features_restored_after_reload": true,
+    "fixed_setup_preview": [
+      "node",
+      "codex",
+      "git"
+    ],
+    "simulated_install_progress_and_completion": true,
+    "source_and_install_locations_reviewable": true,
+    "english_and_chinese_checked": true,
+    "actual_temporary_data_write_probe": "passed and cleaned",
+    "practice_created_and_reopened_without_duplicate": true,
+    "practice_documents": 1,
+    "practice_tasks": 1,
+    "practice_tasks_done": 0,
+    "guide_does_not_force_return_after_practice_and_reload": true,
+    "horizontal_overflow": false,
+    "console_errors_or_warnings_at_final_check": 0,
+    "temporary_tab_closed": true
+  },
+  "installation_validation": {
+    "installer_commands": "Mock subprocess tests; no real packages downloaded or executed",
+    "browser_installer": "Simulated worker; not a real installation",
+    "new_software_installed_or_upgraded": 0,
+    "real_clean_machine_acceptance": false,
+    "accounts_authorized": 0
+  },
+  "permission_boundary": {
+    "agent_install_actions_added": 0,
+    "business_actions": 76,
+    "application_tools": 21,
+    "full_grants_added": 0,
+    "computer_grants_added": 0,
+    "automatic_credit_grants_added": 0,
+    "automatic_license_acceptance_flags": false
+  },
+  "real_model_requests": 0,
+  "paid_generation_requests": 0,
+  "engine_requests": 0,
+  "github_uploads": 0,
+  "screenshots": [
+    "workbench-onboarding-en-v0.18.png",
+    "workbench-onboarding-zh-v0.18.png"
+  ],
+  "limitations": [
+    "Python still needs to exist or be installed through the guided bootstrap",
+    "WinGet and network availability, installer agreements and elevation may require user action",
+    "Suno skill, GPU/model setup and engine licenses use guided configuration rather than complete automatic installation",
+    "No private Python runtime, signed installer or upgrade rollback",
+    "No new real provider or game engine acceptance",
+    "Main UI and lazy 3D bundles retain size warnings",
+    "No physical mobile-device acceptance"
+  ]
+}

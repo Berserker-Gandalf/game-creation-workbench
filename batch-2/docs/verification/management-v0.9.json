@@ -1,0 +1,49 @@
+{
+  "version": "0.9.0",
+  "date": "2026-10-26",
+  "scope": "Local single-user workbench; isolated self-authored project fixtures",
+  "automated": {
+    "pytest_passed": 83,
+    "management_tests": 12,
+    "frontend_production_build": "passed",
+    "covered": [
+      "Codex window normalization; missing values never become zero",
+      "Balance failures preserve stale readings; cache expiry and Tripo region changes",
+      "Read-only Suno/Tripo calls and fixed official DeepSeek balance endpoint",
+      "Full filtered snapshot with per-file and archive SHA-256 and parent linkage",
+      "Independent restore; original project bytes remain unchanged",
+      "Archive tampering and recursive backup destinations rejected",
+      "Source changed during snapshot is failed, never ready",
+      "Frozen GitHub preview; sensitive patterns and unsafe repository URLs blocked",
+      "Native Git push to isolated local bare repository; no source HEAD/index changes",
+      "Lost response after successful push becomes unknown; read-only check recovers without another upload",
+      "Native Git LFS pointer generation; staged manifest includes generated rules",
+      "Public repository confirmation and modified preview protection",
+      "Restart marks incomplete snapshot interrupted and pushing publication unknown"
+    ]
+  },
+  "real_accounts_readonly": {
+    "codex": { "status": "ok", "returned_limit_windows": 2 },
+    "suno_cn": { "status": "ok", "points_field_validated": true },
+    "personal_balances_or_identities_in_public_evidence": false,
+    "new_generation_or_reset_requests": 0
+  },
+  "browser": {
+    "snapshot_creation_integrity_check_and_independent_restore": "passed",
+    "github_prepare_and_file_review": "passed with simulated GitHub metadata; no external upload",
+    "account_cards": "passed with simulated balances; screenshot numbers are fixtures",
+    "console_warnings_or_errors": 0,
+    "screenshots": [
+      "workbench-management-v0.9.png",
+      "workbench-github-v0.9.png",
+      "workbench-accounts-v0.9.png"
+    ]
+  },
+  "not_verified": [
+    "Real Tripo or DeepSeek account balance requests",
+    "Real GitHub account/token permissions and remote Git/LFS upload",
+    "New paid model generation, music generation, or engine compilation/runtime",
+    "Filesystem-atomic snapshot consistency during concurrent writers",
+    "Automatic off-site, scheduled or incremental backup; external snapshot index import"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "recipes": [
+    {
+      "style": "human",
+      "blender": "5.2.2 LTS",
+      "objects": 30,
+      "vertices": 935,
+      "triangles": 1740,
+      "bounds": [
+        [
+          -0.5878872275352478,
+          -0.21250000596046448,
+          0.0
+        ],
+        [
+          0.5878872275352478,
+          0.29281482100486755,
+          1.725436806678772
+        ]
+      ],
+      "rigged": false,
+      "source_reopened": true,
+      "glb_imported": true
+    },
+    {
+      "style": "chibi",
+      "blender": "5.2.2 LTS",
+      "objects": 31,
+      "vertices": 1005,
+      "triangles": 1876,
+      "bounds": [
+        [
+          -0.5878872275352478,
+          -0.21692000329494476,
+          0.0
+        ],
+        [
+          0.6371871829032898,
+          0.21692000329494476,
+          1.7335302829742432
+        ]
+      ],
+      "rigged": false,
+      "source_reopened": true,
+      "glb_imported": true
+    },
+    {
+      "style": "robot",
+      "blender": "5.2.2 LTS",
+      "objects": 25,
+      "vertices": 596,
+      "triangles": 1092,
+      "bounds": [
+        [
+          -0.8343600034713745,
+          -0.21250000596046448,
+          0.0
+        ],
+        [
+          0.8343600034713745,
+          0.15707999467849731,
+          1.7000000476837158
+        ]
+      ],
+      "rigged": false,
+      "source_reopened": true,
+      "glb_imported": true
+    }
+  ],
+  "backup_restore": true,
+  "cloud_requests": 0,
+  "engine_runtime_verified": false,
+  "mcp_profiles": [
+    {
+      "mode": "execute",
+      "tools": 10,
+      "verified": true,
+      "project_commands": false
+    },
+    {
+      "mode": "discussion",
+      "tools": 7,
+      "verified": true,
+      "project_commands": false
+    }
+  ],
+  "real_codex": {
+    "model": "gpt-6.1-sol",
+    "draft_created": true,
+    "project_commands": false
+  },
+  "browser_flow": {
+    "save_draft": true,
+    "build": true,
+    "glb_preview": true,
+    "derive_version": true
+  }
+}
