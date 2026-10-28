@@ -121,4 +121,6 @@ python -X utf8 scripts/package_release.py
 
 ## 独立游戏创作同好交流
 
+项目持续更新，根据反馈更新新工具模块、插件、token管理工具等。
+
 造物间（AI协作游戏开发）QQ群：1079128787
