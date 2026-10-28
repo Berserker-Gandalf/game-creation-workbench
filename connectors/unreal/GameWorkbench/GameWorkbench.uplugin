@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Game Workbench Bridge",
+  "Description": "Local authenticated editor bridge for the game creation workbench.",
+  "Category": "Editor",
+  "CanContainContent": true,
+  "EnabledByDefault": true,
+  "Plugins": [
+    {"Name": "PythonScriptPlugin", "Enabled": true},
+    {"Name": "EditorScriptingUtilities", "Enabled": true}
+  ]
+}
