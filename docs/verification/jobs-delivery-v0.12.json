@@ -1,0 +1,61 @@
+{
+  "version": "0.12.0",
+  "date": "2026-10-26",
+  "pytest_passed": 127,
+  "pytest_seconds": 61.23,
+  "new_jobs_delivery_cases": 16,
+  "frontend_build": "passed",
+  "full_business_actions": 69,
+  "full_application_tools": 21,
+  "backup_format": 9,
+  "automated_scope": [
+    "Public HTTPS DNS/IP pinning, TLS hostname, no credentials/proxy/redirect/compression, MIME and byte limits",
+    "PCM WAV completeness and MP3 metadata validation; idempotent audio registration and partial-file cleanup",
+    "Queue ownership, explicit import acknowledgement, deduplication, cancellation, revocation and restart recovery",
+    "Unified source status and query result status stay distinct; music processing is running",
+    "Pinned asset versions/hashes, immutable acceptance history, stale review-token rejection, cross-project refusal",
+    "External file changes invalidate the task and downstream review, even after original bytes are restored",
+    "Backup import remaps music/art provenance, task deliveries, receipts and operation references; grants not inherited"
+  ],
+  "browser": {
+    "service": "Simulated SUNO helper and media download; synthetic two-second PCM WAV",
+    "workflow": [
+      "query known task",
+      "explicitly queue audio import",
+      "inspect registered asset",
+      "link current version to task",
+      "record scoped acceptance",
+      "derive shorter audio version",
+      "observe task/downstream invalidation",
+      "retain original acceptance",
+      "adopt new version and reset to todo",
+      "record new acceptance"
+    ],
+    "receipts": 2,
+    "original_version_index": 0,
+    "final_version_index": 1,
+    "original_sha256": "433b142af80d7312a183af7c580adbc0b83961c5d9fcc15b1b1c64be28ada693",
+    "final_sha256": "393cb1e72b698cb5eb2077ec50a209aaf13044b3a9931d8ff33e261dcefff9e7",
+    "final_task_ready": true,
+    "original_receipt_retained": true,
+    "query_and_import_operations": 2,
+    "console_warnings_or_errors": 0,
+    "temporary_tabs_closed": true,
+    "screenshots": [
+      "workbench-jobs-v0.12.png",
+      "workbench-delivery-v0.12.png"
+    ]
+  },
+  "not_verified": [
+    "Real SUNO generation, account spending or real remote media transfer",
+    "Real Tripo generation or real model inference in this iteration",
+    "Full audio decoding, music quality, commercial rights or engine playback/import",
+    "Real GitHub remote upload or desktop installer readiness",
+    "High-concurrency scheduling, event subscriptions or large-project performance"
+  ],
+  "notes": [
+    "No real paid request or user game-directory mutation; original SUNO Skill helper unchanged",
+    "Existing Starlette/httpx deprecation and lazy Three.js chunk-size advisories remain",
+    "New pure-Python runtime dependency TinyTag 2.3.2 is MIT licensed; dependencies installed separately"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-25",
+  "scope": "Real local Codex App Server and workbench MCP bridge catalog; no model inference or paid generation",
+  "checks": [
+    {
+      "role": "director",
+      "mode": "discussion",
+      "verified": true,
+      "model": "gpt-6.1-sol",
+      "tools": [
+        "engine_status",
+        "get_music_jobs",
+        "get_project",
+        "list_assets",
+        "read_document",
+        "read_history",
+        "search_documents",
+        "view_asset"
+      ],
+      "blocked_servers": [
+        "codex_app",
+        "codex_apps",
+        "cua_repl",
+        "node_repl"
+      ],
+      "project_commands": false,
+      "agent": "director",
+      "checked_at": "2026-10-25T03:01:47.816192+00:00"
+    },
+    {
+      "role": "director",
+      "mode": "execute",
+      "verified": true,
+      "model": "gpt-6.1-sol",
+      "tools": [
+        "create_document",
+        "create_task",
+        "draft_music",
+        "edit_image",
+        "engine_status",
+        "get_music_jobs",
+        "get_project",
+        "list_assets",
+        "read_document",
+        "read_history",
+        "search_documents",
+        "view_asset"
+      ],
+      "blocked_servers": [
+        "codex_app",
+        "codex_apps",
+        "cua_repl",
+        "node_repl"
+      ],
+      "project_commands": true,
+      "agent": "director",
+      "checked_at": "2026-10-25T03:01:57.146597+00:00"
+    },
+    {
+      "role": "music",
+      "mode": "discussion",
+      "verified": true,
+      "model": "gpt-6.1-sol",
+      "tools": [
+        "get_music_jobs",
+        "get_project",
+        "list_assets",
+        "read_document",
+        "read_history",
+        "search_documents"
+      ],
+      "blocked_servers": [
+        "codex_app",
+        "codex_apps",
+        "cua_repl",
+        "node_repl"
+      ],
+      "project_commands": false,
+      "agent": "music",
+      "checked_at": "2026-10-25T03:02:00.297589+00:00"
+    },
+    {
+      "role": "music",
+      "mode": "execute",
+      "verified": true,
+      "model": "gpt-6.1-sol",
+      "tools": [
+        "create_document",
+        "create_task",
+        "draft_music",
+        "get_music_jobs",
+        "get_project",
+        "list_assets",
+        "read_document",
+        "read_history",
+        "search_documents"
+      ],
+      "blocked_servers": [
+        "codex_app",
+        "codex_apps",
+        "cua_repl",
+        "node_repl"
+      ],
+      "project_commands": false,
+      "agent": "music",
+      "checked_at": "2026-10-25T03:02:03.570085+00:00"
+    }
+  ]
+}

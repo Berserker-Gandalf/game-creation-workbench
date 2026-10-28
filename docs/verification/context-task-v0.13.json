@@ -1,0 +1,82 @@
+{
+  "version": "0.13.0",
+  "date": "2026-10-26",
+  "pytest_passed": 144,
+  "new_context_task_cases": 17,
+  "frontend_build": "passed",
+  "backup_format": 10,
+  "full_business_actions": 76,
+  "full_application_tools": 21,
+  "automated_scope": [
+    "Bounded 300-document/300-task/1000-asset project context; catalog paging, exact record chunks and formal-document priority",
+    "Compact chat retains user memory and original messages; coverage audit survives provider runtime events",
+    "Context/checkpoint ownership and malformed input rejection; three Markdown files, related Skill/workflow references, no overwrite",
+    "Four free task-linked draft kinds; no generation request while drafting",
+    "Confirmed art draft executes once; output returns to source task; explicit candidate adoption remains todo without acceptance",
+    "Default music role can use task_id without full access; cross-project and revoked actions rejected",
+    "Blender child recipes retain source task; automated unresolved same-prompt art resubmission refused",
+    "Fingerprint updates omit unchanged bodies, detect external delivery changes; ETag conditional responses return 304",
+    "Backup format10 remaps task/source links and recognized Markdown references; historical music restore state retained"
+  ],
+  "synthetic_scale_check": {
+    "documents": 300,
+    "tasks": 300,
+    "assets": 1000,
+    "raw_context_chars": 1504453,
+    "compact_context_chars": 10584,
+    "state_read_seconds": 0.0612,
+    "compact_seconds": 0.0059,
+    "unchanged_update_seconds": 0.0283,
+    "unchanged_update_bytes": 388,
+    "unchanged_payload_sections": 0,
+    "scope": "Single local synthetic API fixture; no rendering, real-file hashing or engine benchmark"
+  },
+  "browser": {
+    "service": "Simulated text model and WebUI; self-made PNG, isolated project and local data",
+    "workflow": [
+      "create free art draft from task",
+      "open original job",
+      "confirm one simulated generation",
+      "candidate appears in original task",
+      "explicitly adopt current version",
+      "select compact mode and preview coverage",
+      "save three Markdown drafts",
+      "run one simulated compact chat",
+      "reopen UI and inspect existing checkpoint",
+      "save another checkpoint in wide editor without replacing the first",
+      "append AI summary request without overwriting unsent draft or sending automatically"
+    ],
+    "task_creations": 1,
+    "candidate_outputs": 1,
+    "adopted_assets": 1,
+    "task_status": "todo",
+    "acceptances": 0,
+    "markdown_drafts": 6,
+    "checkpoint_groups": 2,
+    "markdown_zip_verified": true,
+    "related_skill_reference_retained": true,
+    "compact_chat_audit_retained": true,
+    "initial_conditional_304_responses": 46,
+    "final_reopened_console_warnings_or_errors": 0,
+    "temporary_tabs_closed": true,
+    "screenshots": [
+      "workbench-context-v0.13.png",
+      "workbench-context-editor-v0.13.png",
+      "workbench-task-creation-v0.13.png"
+    ]
+  },
+  "not_verified": [
+    "Real inference, paid SUNO/Tripo/image generation or account spending in this iteration",
+    "Semantic-summary quality, exact model token capacity or bill estimation",
+    "Real large game projects, filesystem hashing throughput, browser first-paint/memory or engine performance",
+    "Real engine compilation/playback, GitHub remote upload, desktop installer/upgrade recovery",
+    "Server-push events, concurrent multi-agent dispatch or autonomous paid-job scheduling"
+  ],
+  "notes": [
+    "Compression is inspectable catalog/history selection, not an extra hidden model call; originals remain retrievable",
+    "SKILLS.md stores project conventions/references, not third-party executable Skill code or credentials",
+    "Only synthetic fixture data changed; original workbench data and game directories were not reset",
+    "One stale prior-fixture selection returned expected 400 during initial navigation; final reopened UI had no console errors",
+    "Existing Starlette/httpx deprecation and lazy Three.js chunk-size advisories remain"
+  ]
+}

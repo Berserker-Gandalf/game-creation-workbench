@@ -1,0 +1,103 @@
+{
+  "version": "0.19.0",
+  "date": "2026-10-28",
+  "python_tests": {
+    "passed": 213,
+    "warnings": 1,
+    "warning_scope": "Existing Starlette/httpx test-client deprecation"
+  },
+  "production_build": {
+    "passed": true,
+    "translations": 2034,
+    "source_uses": 1405,
+    "remaining_warning": "Main UI and lazy 3D chunks exceed 500 kB"
+  },
+  "private_runtime": {
+    "python": "3.13.17",
+    "source": "https://www.python.org/ftp/python/3.13.17/python-3.13.17-embed-amd64.zip",
+    "source_sha256": "9e35319bffedab8b36ad44d8f377cb4f1733bcec257a0b6d04d94f01486ddb38",
+    "imports": [
+      "backend.app",
+      "sqlite3",
+      "ssl",
+      "PIL._imaging",
+      "pydantic_core"
+    ],
+    "chinese_space_relocation": true,
+    "path_without_python_node": true,
+    "setup_check_only": true,
+    "start_stop_restart_and_data_retention": true,
+    "clean_vm": false
+  },
+  "native_picker": {
+    "source_compiled_and_opened": true,
+    "cancel_preserved_input": true,
+    "confirmed_selection_filled_input": true,
+    "selection_did_not_import_or_grant_access": true,
+    "tests_cover": [
+      "fixed purposes",
+      "cancel",
+      "selection",
+      "invalid fields",
+      "human-only action catalog"
+    ]
+  },
+  "suno_skill": {
+    "version": "2.4.0",
+    "sha256": "30983208ed2b8c4f8a90a0505159abf580b986384d19b032aa734c59d8bcb319",
+    "actual_vendor_download": true,
+    "isolated_ui_installation": true,
+    "five_files_byte_identical": true,
+    "global_skill_or_credentials_modified": false,
+    "node_system_install": "Simulated as already present; not installed in this run",
+    "auth_account_or_generation_requests": false,
+    "tests_cover": [
+      "hash mismatch",
+      "unexpected archive paths",
+      "atomic activation",
+      "existing global installation preserved",
+      "Node dependency ordering",
+      "no account calls"
+    ]
+  },
+  "webui_hardware": {
+    "actual_read_only_probe": true,
+    "ram_gib_rounded": 61.6,
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "vram_gib_rounded": 15.9,
+    "existing_webui_marker_found": true,
+    "tests_cover": [
+      "insufficient RAM and disk",
+      "unknown AMD VRAM",
+      "NVIDIA CSV parsing",
+      "invalid inputs"
+    ],
+    "torch_project_code_or_generation_executed": false
+  },
+  "installer": {
+    "compiled": true,
+    "gui_installation": true,
+    "signed": false,
+    "system_application_uninstaller": false,
+    "automatic_update_or_database_rollback": false,
+    "custom_isolated_directory": true,
+    "files_verified": 1536,
+    "temporary_stage_clean": true,
+    "test_shortcuts_archived": true
+  },
+  "permissions": {
+    "business_actions": 76,
+    "tool_names": 21,
+    "new_agent_grants": false
+  },
+  "external_boundaries": [
+    "No new paid generation",
+    "No new engine runtime verification",
+    "No GitHub remote publication",
+    "Local isolated checks do not replace clean Windows VM acceptance"
+  ],
+  "screenshots": [
+    "workbench-setup-zh-v0.19.png",
+    "workbench-setup-en-v0.19.png"
+  ]
+}
