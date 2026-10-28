@@ -1,8 +1,0 @@
-{
-  "version": "6000.5.3f1",
-  "compile_passed": true,
-  "runtime_verified": false,
-  "blocker": "No valid Unity Editor license found",
-  "source_log": ".dev/engine-tests/Unity/verification.log",
-  "license_message_found": true
-}
