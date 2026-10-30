@@ -24,7 +24,7 @@ def valid(path):
 
 
 def download():
-    request = urllib.request.Request(URL, headers={'User-Agent': 'ZAOWU-Workbench-Setup'})
+    request = urllib.request.Request(URL, headers={'User-Agent': 'Questweft-Workbench-Setup'})
     with urllib.request.urlopen(request, timeout=45) as response:
         if response.geturl().split('?', 1)[0] != URL: raise ValueError('音乐 Skill 下载来源发生变化，请核对供应方指引')
         return response.read(2 * 1024 * 1024 + 1)

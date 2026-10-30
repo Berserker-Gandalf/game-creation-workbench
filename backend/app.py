@@ -40,7 +40,7 @@ async def lifespan(app):
             await codex.client.stop()
 
 
-app = FastAPI(title='造物间 · 游戏创作工作台', version=__version__, lifespan=lifespan)
+app = FastAPI(title='游织工坊 Questweft · AI 独立游戏制作工作台', version=__version__, lifespan=lifespan)
 app.add_middleware(TrustedHostMiddleware, allowed_hosts=['127.0.0.1', 'localhost', '[::1]', 'testserver'])
 
 

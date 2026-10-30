@@ -1,18 +1,24 @@
-﻿<p align="center"><img src="public/brand/mark.svg" width="88" height="88" alt="造物间 LOGO"></p>
+<p align="center"><img src="public/brand/mark.svg" width="64" height="64" alt="游织工坊 LOGO"></p>
 
-# 造物间 · ZAOWU
+# 游织工坊 Questweft · AI 独立游戏制作工作台
 
-**把游戏设计、AI 创作与项目交付放在同一个工作空间。**
+**开源、本地运行的 AI 游戏开发工作台：连接 Unity / Unreal、AI 游戏设计、美术、音乐与 3D 建模。**
 
-[English](README_EN.md) · [使用指南](docs/USER_GUIDE.md) · [技术手册](docs/TECHNICAL_OVERVIEW.md) · [版本记录](CHANGELOG.md)
+**[⬇ 下载 Windows 安装包](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/download/v0.19.0/ZAOWU-0.19.0-windows-x64-setup.exe)** · [免安装 ZIP](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/download/v0.19.0/ZAOWU-0.19.0-windows-x64.zip) · [官网](https://berserker-gandalf.github.io/game-creation-workbench/) · [English](README_EN.md)
 
-造物间是运行在个人电脑上的游戏创作与项目管理工作台。可接入已有 Unreal Engine 或 Unity 工程，与 AI 讨论设计，创建美术、音乐和模型方案，并用任务、资产版本与执行记录追踪项目进展。
+[快速上手](docs/QUICK_START_AND_SETUP.md) · [▶ 2:54 历史案例视频（旧品牌）](media/case-study/beacon-route-case-zh.mp4) · [全部版本与校验文件](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/tag/v0.19.0) · [技术手册](docs/TECHNICAL_OVERVIEW.md)
 
-造物间目前包含大模型agent（现支持codex会员、GPT api、Deepseek api连接）、WebUI美术、Suno音乐、Tripo建模四个模块，可以使用AI会话先对游戏想法进行验证拓展，同时初步定下游戏玩法与剧情方向，可让AI生成美术与音乐提示词，进而使用WebUI对游戏概念美术进行设计(出平面图后可以转送至Tripo进行图生建模)，并使用Suno生成游戏配乐，游戏资产都可在工作台进行管理验证。
+**当前源码 v0.19.1 · Windows x64 · 本机单用户 · 简体中文 / English · MIT 源码许可**
 
-**0.19.0 实验版 · Windows 优先 · 本机单用户 · 简体中文 / English · MIT 源码许可**
+品牌已更名为游织工坊 Questweft。上述公开下载仍为旧品牌 ZAOWU v0.19.0；新版候选附件发布后再更新下载入口。[品牌、兼容性与搜索优化](docs/BRAND_AND_SEARCH.md)。
 
-![工作台与会话控制](docs/verification/workbench-preferences-zh-v0.17.png)
+首次使用：下载安装包 → 安装并打开 → 创建练习项目或接入已有游戏。核心项目管理自带 Python，无需另装 Node；外部创作服务按需配置。安装包未签名，见[安装说明](docs/WINDOWS_APP_AND_SETUP.md)。
+
+**真实案例：**原创小游戏《灯塔航线》已经实际通关。查看[录屏片段、验收范围与玩法](docs/CASE_STUDY_BEACON_ROUTE.md)，或[获取小游戏源码](examples/beacon-route)。
+
+游织工坊是运行在个人电脑上的游戏创作与项目管理工作台。可接入已有 Unreal Engine 或 Unity 工程，与 AI 讨论设计，创建美术、音乐和模型方案，并用任务、资产版本与执行记录追踪项目进展。
+
+游织工坊目前包含大模型agent（现支持codex会员、GPT api、Deepseek api连接）、WebUI美术、Suno音乐、Tripo建模四个模块，可以使用AI会话先对游戏想法进行验证拓展，同时初步定下游戏玩法与剧情方向，可让AI生成美术与音乐提示词，进而使用WebUI对游戏概念美术进行设计(出平面图后可以转送至Tripo进行图生建模)，并使用Suno生成游戏配乐，游戏资产都可在工作台进行管理验证。
 
 ## 从已有项目继续创作
 
@@ -20,6 +26,8 @@
 2. **讨论与规划**：总负责人、音乐负责人、建模负责人各有会话、项目资料与工具范围。
 3. **创作与处理**：保存免费方案，按需使用本机工具或经确认的云端生成，将产出纳入版本化资产。
 4. **交付与留存**：关联任务和确切资产版本，记录验收依据，再创建可校验的工程快照。
+
+![工作台与会话控制](docs/site/screens/workspace-zh.png)
 
 ## 主要功能
 
@@ -40,7 +48,7 @@
 
 推荐下载 `ZAOWU-0.19.0-windows-x64-setup.exe`，或完整解压自带 Python 的 Windows ZIP 后打开 `ZAOWU.exe`。基础管理无需另装 Python/Node；程序与数据分离。安装包未签名，详见[应用与装配指南](docs/WINDOWS_APP_AND_SETUP.md)。以下 Install 入口保留给源码发行物。
 
-发布后可从本仓库的 **Releases** 选择以下附件；下载是否可用以实际发布页面为准：
+从 [v0.19.0 Releases](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/tag/v0.19.0) 选择适合自己的附件：
 
 | 发行物 | 适合谁 | 自带 Python |
 | --- | --- | --- |
@@ -123,4 +131,4 @@ python -X utf8 scripts/package_release.py
 
 项目持续更新，根据反馈更新新工具模块、插件、token管理工具等。
 
-造物间（AI协作游戏开发）QQ群：1079128787
+游织工坊（AI协作游戏开发）QQ群：1079128787

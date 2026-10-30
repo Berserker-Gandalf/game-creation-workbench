@@ -4,7 +4,7 @@
 
 ## 1. 项目与固定约束
 
-- 产品：造物间，支持中文/English、本机、单用户的游戏创作与项目管理工作台；React/TypeScript + Python/FastAPI，Windows优先，源码MIT。
+- 产品：游织工坊，支持中文/English、本机、单用户的游戏创作与项目管理工作台；React/TypeScript + Python/FastAPI，Windows优先，源码MIT。
 - 目标：接续已有Unreal/Unity工程，协调总负责人、音乐和建模角色，管理设计、任务、资产、生成及项目留存。
 - 不静默扩大Agent权限；工作台全功能、Codex整机访问、SUNO/Tripo自动积分分别显式授权。整机权限下的外部操作不受工作台积分开关完全约束。
 - 不自动重试结果未知的收费请求；生成成功、资产交付、任务验收和引擎实际运行分别记录。

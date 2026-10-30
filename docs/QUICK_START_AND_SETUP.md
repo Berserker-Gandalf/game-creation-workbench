@@ -2,7 +2,7 @@
 
 适用版本：0.19.0。日期：2026-10-28。推荐Windows，本机单用户。
 
-> 0.19 推荐入口：下载自带 Python 的 Windows 安装包或 ZIP，打开 ZAOWU.exe 即可管理项目；无需先装基础组件。系统目录选择、SUNO 原包装配、WebUI 硬件预检详见[应用与装配指南](WINDOWS_APP_AND_SETUP.md)。下方源码装配步骤继续保留。
+> 0.19 推荐入口：下载自带 Python 的 Windows 安装包或 ZIP，打开 Questweft.exe 即可管理项目；无需先装基础组件。系统目录选择、SUNO 原包装配、WebUI 硬件预检详见[应用与装配指南](WINDOWS_APP_AND_SETUP.md)。下方源码装配步骤继续保留。
 
 ## 1. 不配置AI，也能先开始
 
