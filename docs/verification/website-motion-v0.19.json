@@ -1,0 +1,446 @@
+{
+  "date": "2026-10-28",
+  "scope": "Static product website motion and multi-feature screenshots; no remote publication",
+  "skills": [
+    "ui-ux-pro-max: reduced motion, transform performance and hover/tap guidance"
+  ],
+  "motion": {
+    "scroll_reveal_ms": 600,
+    "screenshot_fade_ms": 420,
+    "max_tilt_degrees": [
+      1.2,
+      1.6
+    ],
+    "manual_galleries": true,
+    "automatic_carousel": false,
+    "passive_scroll": true,
+    "frame_batched_pointer_and_scroll": true,
+    "local_motion_preference": true,
+    "system_reduced_motion_takes_priority": true
+  },
+  "gallery": {
+    "hero_views": [
+      "workspace",
+      "tasks",
+      "music",
+      "modeling"
+    ],
+    "detail_views": [
+      "workspace",
+      "design",
+      "tasks",
+      "music",
+      "modeling",
+      "hardware"
+    ],
+    "new_full_screens": 8,
+    "thumbnails": 8,
+    "screens": [
+      {
+        "view": "workspace",
+        "language": "zh",
+        "path": "docs/verification/workbench-preferences-zh-v0.17.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 90428,
+        "sha256": "da3e3fdd354a9a3bffb6ee1fdc32dc8d43b8594a6ca1c0be4485c85c9feba4de"
+      },
+      {
+        "view": "design",
+        "language": "zh",
+        "path": "docs/site/screens/design-zh.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 415412,
+        "sha256": "7d24c9ffb7a0567f1cde8df2c4748d184b15a4a74d6dd4d3e824d74b5d92f333"
+      },
+      {
+        "view": "tasks",
+        "language": "zh",
+        "path": "docs/site/screens/tasks-zh.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 419736,
+        "sha256": "e6ed6ccff351f5760e6f029038049616b523b19d4e022cf484f758338983eb24"
+      },
+      {
+        "view": "music",
+        "language": "zh",
+        "path": "docs/site/screens/music-zh.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 357259,
+        "sha256": "9ac3b09c21a687943bbf309d6ef5834d1b654f2cfe94069334fffb278fae3773"
+      },
+      {
+        "view": "modeling",
+        "language": "zh",
+        "path": "docs/site/screens/modeling-zh.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 374098,
+        "sha256": "96030a45816b07a963ea00370291df3693f8289b3559b9a339de82172d029c53"
+      },
+      {
+        "view": "hardware",
+        "language": "zh",
+        "path": "docs/verification/workbench-setup-zh-v0.19.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 95473,
+        "sha256": "c233f6ab0bceda5ebc3e2df80ed73f777041ca963cea2f4828b5102d573d1b12"
+      },
+      {
+        "view": "workspace",
+        "language": "en",
+        "path": "docs/verification/workbench-preferences-v0.17.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 87800,
+        "sha256": "118d77aa938c941a49c8f9eb6875221ee398db4c1ab68e89423dc451ddc8542d"
+      },
+      {
+        "view": "design",
+        "language": "en",
+        "path": "docs/site/screens/design-en.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 416151,
+        "sha256": "30165d44f64ebbe11b6586fdaac4c012ae23a1c8e600cec3264b9731001303c4"
+      },
+      {
+        "view": "tasks",
+        "language": "en",
+        "path": "docs/site/screens/tasks-en.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 438449,
+        "sha256": "a26d9241563ac17f4f3d3f3c031f5c84c28a060a1f51c350b26a19c48ef8bc64"
+      },
+      {
+        "view": "music",
+        "language": "en",
+        "path": "docs/site/screens/music-en.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 371719,
+        "sha256": "cc7941d0792c59ca56d08aa8aa0d00d1884abd2126b10c9fa45ae8b8e2f24e2e"
+      },
+      {
+        "view": "modeling",
+        "language": "en",
+        "path": "docs/site/screens/modeling-en.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 405211,
+        "sha256": "1f131d376dd4b1ef7245af716e3c1ba61689dc506e49299c346c6bfc87a40f3e"
+      },
+      {
+        "view": "hardware",
+        "language": "en",
+        "path": "docs/verification/workbench-setup-en-v0.19.png",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 98108,
+        "sha256": "69b194d699aef6fbe1542e4b355d611ae966a1e2842a27866184f572a28fc5f1"
+      }
+    ]
+  },
+  "browser_checks": [
+    "native mouse movement sets bounded hero tilt and light",
+    "scroll reveals content and updates reading progress and navigation",
+    "independent hero and detail selections",
+    "arrow key wrap in both galleries",
+    "Home/End and original-image dialog",
+    "Escape closes dialog and returns focus",
+    "motion off immediately reveals all pending content",
+    "motion off persists across reload",
+    "Chinese and English layouts without horizontal page overflow"
+  ],
+  "responsive_checks": [
+    {
+      "clientWidth": 305,
+      "headerPosition": "sticky",
+      "height": 812,
+      "heroTabs": 264.66668701171875,
+      "language": "zh-CN",
+      "previewTabs": 264.66668701171875,
+      "scrollWidth": 305,
+      "videos": 0,
+      "width": 320
+    },
+    {
+      "clientWidth": 360,
+      "headerPosition": "sticky",
+      "height": 812,
+      "heroTabs": 320,
+      "language": "zh-CN",
+      "previewTabs": 320,
+      "scrollWidth": 360,
+      "videos": 0,
+      "width": 375
+    },
+    {
+      "clientWidth": 625,
+      "headerPosition": "sticky",
+      "height": 768,
+      "heroTabs": 568.6666870117188,
+      "language": "zh-CN",
+      "previewTabs": 568.6666870117188,
+      "scrollWidth": 625,
+      "videos": 0,
+      "width": 640
+    },
+    {
+      "clientWidth": 753,
+      "headerPosition": "sticky",
+      "height": 1024,
+      "heroTabs": 696.6666870117188,
+      "language": "zh-CN",
+      "previewTabs": 696.6666870117188,
+      "scrollWidth": 753,
+      "videos": 0,
+      "width": 768
+    },
+    {
+      "clientWidth": 797,
+      "headerPosition": "static",
+      "height": 375,
+      "heroTabs": 740.6666870117188,
+      "language": "zh-CN",
+      "previewTabs": 740.6666870117188,
+      "scrollWidth": 797,
+      "videos": 0,
+      "width": 812
+    },
+    {
+      "clientWidth": 1009,
+      "headerPosition": "sticky",
+      "height": 768,
+      "heroTabs": 510.46875,
+      "language": "zh-CN",
+      "previewTabs": 952.6666870117188,
+      "scrollWidth": 1009,
+      "videos": 0,
+      "width": 1024
+    },
+    {
+      "clientWidth": 1425,
+      "headerPosition": "sticky",
+      "height": 960,
+      "heroTabs": 674.2083740234375,
+      "language": "zh-CN",
+      "previewTabs": 1280,
+      "scrollWidth": 1425,
+      "videos": 0,
+      "width": 1440
+    },
+    {
+      "clientWidth": 305,
+      "headerPosition": "sticky",
+      "height": 812,
+      "heroTabs": 264.66668701171875,
+      "language": "en",
+      "previewTabs": 264.66668701171875,
+      "scrollWidth": 305,
+      "videos": 0,
+      "width": 320
+    },
+    {
+      "clientWidth": 360,
+      "headerPosition": "sticky",
+      "height": 812,
+      "heroTabs": 320,
+      "language": "en",
+      "previewTabs": 320,
+      "scrollWidth": 360,
+      "videos": 0,
+      "width": 375
+    },
+    {
+      "clientWidth": 625,
+      "headerPosition": "sticky",
+      "height": 768,
+      "heroTabs": 568.6666870117188,
+      "language": "en",
+      "previewTabs": 568.6666870117188,
+      "scrollWidth": 625,
+      "videos": 0,
+      "width": 640
+    },
+    {
+      "clientWidth": 753,
+      "headerPosition": "sticky",
+      "height": 1024,
+      "heroTabs": 696.6666870117188,
+      "language": "en",
+      "previewTabs": 696.6666870117188,
+      "scrollWidth": 753,
+      "videos": 0,
+      "width": 768
+    },
+    {
+      "clientWidth": 797,
+      "headerPosition": "static",
+      "height": 375,
+      "heroTabs": 740.6666870117188,
+      "language": "en",
+      "previewTabs": 740.6666870117188,
+      "scrollWidth": 797,
+      "videos": 0,
+      "width": 812
+    },
+    {
+      "clientWidth": 1009,
+      "headerPosition": "sticky",
+      "height": 768,
+      "heroTabs": 510.46875,
+      "language": "en",
+      "previewTabs": 952.6666870117188,
+      "scrollWidth": 1009,
+      "videos": 0,
+      "width": 1024
+    },
+    {
+      "clientWidth": 1425,
+      "headerPosition": "sticky",
+      "height": 960,
+      "heroTabs": 674.2083740234375,
+      "language": "en",
+      "previewTabs": 1280,
+      "scrollWidth": 1425,
+      "videos": 0,
+      "width": 1440
+    }
+  ],
+  "http_resources": [
+    {
+      "path": "site/screens/design-en.png",
+      "bytes": 416151,
+      "status": 200
+    },
+    {
+      "path": "site/screens/design-zh.png",
+      "bytes": 415412,
+      "status": 200
+    },
+    {
+      "path": "site/screens/modeling-en.png",
+      "bytes": 405211,
+      "status": 200
+    },
+    {
+      "path": "site/screens/modeling-zh.png",
+      "bytes": 374098,
+      "status": 200
+    },
+    {
+      "path": "site/screens/music-en.png",
+      "bytes": 371719,
+      "status": 200
+    },
+    {
+      "path": "site/screens/music-zh.png",
+      "bytes": 357259,
+      "status": 200
+    },
+    {
+      "path": "site/screens/tasks-en.png",
+      "bytes": 438449,
+      "status": 200
+    },
+    {
+      "path": "site/screens/tasks-zh.png",
+      "bytes": 419736,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-modeling-en.png",
+      "bytes": 38975,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-modeling-zh.png",
+      "bytes": 35775,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-music-en.png",
+      "bytes": 36128,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-music-zh.png",
+      "bytes": 34721,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-tasks-en.png",
+      "bytes": 41451,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-tasks-zh.png",
+      "bytes": 39110,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-workspace-en.png",
+      "bytes": 40610,
+      "status": 200
+    },
+    {
+      "path": "site/screens/thumb-workspace-zh.png",
+      "bytes": 40656,
+      "status": 200
+    },
+    {
+      "path": "site/motion.css",
+      "bytes": 6862,
+      "status": 200
+    },
+    {
+      "path": "site/motion.js",
+      "bytes": 4781,
+      "status": 200
+    }
+  ],
+  "checks": {
+    "node_tests": 16,
+    "python_tests": 215,
+    "frontend_build": "passed; existing chunk-size warning"
+  },
+  "case_video_on_website": false,
+  "paid_generation_requests": 0,
+  "capture_boundary": "Eight new v0.19.0 screens captured from isolated synthetic project data; Codex and Suno account status stubbed unavailable; planning interfaces only, no generated music/model or engine acceptance claimed.",
+  "limitations": [
+    "System reduced-motion branch inspected; OS settings were not changed",
+    "No full screen-reader or maximum system text-size acceptance",
+    "Responsive viewport checks are not physical touchscreen-device tests",
+    "Remote Pages deployment and social crawlers not verified"
+  ]
+}

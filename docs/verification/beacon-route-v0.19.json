@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-28",
+  "workbench_version": "0.19.0",
+  "case": "Beacon Route browser prototype",
+  "scope": "Actual local workbench UI, real game input and snapshot verification; not an engine or paid generation test",
+  "game": {
+    "source": "examples/beacon-route",
+    "tested_transport": "local HTTP",
+    "direct_file_open": "not verified in browser automation",
+    "desktop_viewport": [1280, 720],
+    "narrow_viewport": [390, 844],
+    "winning_route": [15, 10, 5, 0, 1, 2, 3, 4, 9, 14, 9, 4],
+    "observed_result": {"moves": 12, "lights": 3, "fuel": 4, "outcome": "won"},
+    "actual_input_checks": ["adjacent tile clicks", "arrow key", "pause and resume", "English switch"]
+  },
+  "workbench": {
+    "intake": {"files": 6, "design_documents": 2, "registered_images": 1},
+    "design_revision": 2,
+    "accepted_task_count": 1,
+    "delivery": {"name": "cover.png", "version": 1, "sha256": "461df62005cea3f6982ad70ebcdf67561b51bffbab7e653d2d987a2191bd0def"},
+    "snapshot": {"entries": 7, "sha256": "72e36481431869c5de1c5f71077ce786ac2e9b67f5e41704062eb6c4963392ff", "archive_and_file_hash_verification": "passed", "restore_execution": "not performed in this case"},
+    "model_request_from_workbench": false,
+    "paid_generation": false
+  },
+  "video": {
+    "path": "media/case-study/beacon-route-case-zh.mp4",
+    "seconds": 174.437,
+    "resolution": [1920, 1080],
+    "fps": 24,
+    "bytes": 4927672,
+    "sha256": "f6946044db7f029a60f49d505595a477c7291333f6c0f94e9f24f2b3e58cc7ea",
+    "capture": "actual browser UI, approximately 5 sampled frames per second, edited in chapters",
+    "narration": "local MeloTTS Chinese female neural voice, sherpa-onnx 2.0.1 CPU, speed 0.90",
+    "decode_check": "complete with no errors",
+    "browser_playback": "local neural revision: full decode passed; browser recheck not performed"
+  },
+  "local_neural_voice": {
+    "model": "vits-melo-tts-zh_en",
+    "model_source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-melo-tts-zh_en.tar.bz2",
+    "model_archive_bytes": 167006755,
+    "model_archive_sha256": "e58351ed7149f290a54534538badd4077cdbe6fddc964b24d0bee870415d1514",
+    "model_license": "MIT, Copyright (c) 2024 MyShell.ai",
+    "inference_engine": "sherpa-onnx 2.0.1",
+    "provider": "cpu",
+    "threads": 4,
+    "speed": 0.9,
+    "sample_rate": 44100,
+    "chapters": 12,
+    "raw_speech_seconds": 133.561,
+    "inference_network_calls": false,
+    "api_key_required": false,
+    "model_weights_in_upload_kit": false,
+    "audio_checks": "12 finite non-silent waveforms; clipping below 1 percent",
+    "preview": {
+      "path": "media/case-study/beacon-route-voice-preview.mp3",
+      "speech_seconds": 20.058,
+      "sha256": "7ca8e443449fae4b6556e0a5b49592c21738a95e8d4409a97d1d8355def7f67c"
+    },
+    "previous_system_voice_video": "retained in the private production backup"
+  },
+  "local_checks": {"python_tests": 215, "website_and_game_node_tests": 10, "frontend_build": "passed"},
+  "publication": "local prepared files; remote README and case upload not performed in this turn"
+}

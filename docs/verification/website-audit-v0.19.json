@@ -1,0 +1,399 @@
+{
+  "date": "2026-10-28",
+  "scope": "Static product website; no case video on Pages; no remote publication",
+  "skills": {
+    "ui-ux-pro-max": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+    "web-asset-generator": "c6d56dc54ab86eae4eeb1393d9c8cdc71ae8d1a8"
+  },
+  "responsive_checks": [
+    {
+      "language": "en",
+      "viewport": [
+        320,
+        812
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "en",
+      "viewport": [
+        375,
+        812
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "en",
+      "viewport": [
+        640,
+        768
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "en",
+      "viewport": [
+        768,
+        1024
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "en",
+      "viewport": [
+        812,
+        375
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "static",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "en",
+      "viewport": [
+        1024,
+        768
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "en",
+      "viewport": [
+        1440,
+        960
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "zh-CN",
+      "viewport": [
+        320,
+        812
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "zh-CN",
+      "viewport": [
+        375,
+        812
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "zh-CN",
+      "viewport": [
+        640,
+        768
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "zh-CN",
+      "viewport": [
+        768,
+        1024
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "zh-CN",
+      "viewport": [
+        812,
+        375
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "static",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "zh-CN",
+      "viewport": [
+        1024,
+        768
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    },
+    {
+      "language": "zh-CN",
+      "viewport": [
+        1440,
+        960
+      ],
+      "no_horizontal_overflow": true,
+      "header_position": "sticky",
+      "download_button_height": 52,
+      "video_elements": 0
+    }
+  ],
+  "release_loading": {
+    "timeout_ms": 8000,
+    "loading_copy_observed": true,
+    "simulated_scenarios": [
+      "slow",
+      "failed",
+      "invalid"
+    ],
+    "fallback_links_valid": true,
+    "paid_requests": 0,
+    "automatic_retry": false
+  },
+  "keyboard_checks": [
+    "skip link focuses main",
+    "End selects hardware screenshot",
+    "dialog original link matches selected screenshot",
+    "Escape closes dialog and returns focus to expand button"
+  ],
+  "localization_checks": [
+    "Chinese and English copy",
+    "language survives reload",
+    "Twitter title/description and OG locale follow language"
+  ],
+  "web_asset_checks": [
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "facebook",
+      "check": "validate_file_size",
+      "passed": true,
+      "message": "File size 0.1MB is within Facebook limits"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "facebook",
+      "check": "validate_dimensions",
+      "passed": true,
+      "message": "Dimensions 1200x630 match Facebook recommended size"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "facebook",
+      "check": "validate_format",
+      "passed": true,
+      "message": "Format PNG is supported by Facebook"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "whatsapp",
+      "check": "validate_file_size",
+      "passed": true,
+      "message": "File size 0.1MB is within Whatsapp limits"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "whatsapp",
+      "check": "validate_dimensions",
+      "passed": true,
+      "message": "Dimensions 1200x630 match Whatsapp recommended size"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "whatsapp",
+      "check": "validate_format",
+      "passed": true,
+      "message": "Format PNG is supported by Whatsapp"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "linkedin",
+      "check": "validate_file_size",
+      "passed": true,
+      "message": "File size 0.1MB is within Linkedin limits"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "linkedin",
+      "check": "validate_dimensions",
+      "passed": true,
+      "message": "Dimensions 1200x630 meet Linkedin requirements"
+    },
+    {
+      "file": "docs/site/social/og-image.png",
+      "platform": "linkedin",
+      "check": "validate_format",
+      "passed": true,
+      "message": "Format PNG is supported by Linkedin"
+    },
+    {
+      "file": "docs/site/social/twitter-image.png",
+      "platform": "twitter",
+      "check": "validate_file_size",
+      "passed": true,
+      "message": "File size 0.1MB is within Twitter limits"
+    },
+    {
+      "file": "docs/site/social/twitter-image.png",
+      "platform": "twitter",
+      "check": "validate_dimensions",
+      "passed": true,
+      "message": "Dimensions 1200x675 match Twitter recommended size"
+    },
+    {
+      "file": "docs/site/social/twitter-image.png",
+      "platform": "twitter",
+      "check": "validate_format",
+      "passed": true,
+      "message": "Format PNG is supported by Twitter"
+    },
+    {
+      "file": "docs/site/icons/favicon-16x16.png",
+      "dimensions": [
+        16,
+        16
+      ],
+      "bytes": 701,
+      "passed": true
+    },
+    {
+      "file": "docs/site/icons/favicon-32x32.png",
+      "dimensions": [
+        32,
+        32
+      ],
+      "bytes": 1688,
+      "passed": true
+    },
+    {
+      "file": "docs/site/icons/favicon-96x96.png",
+      "dimensions": [
+        96,
+        96
+      ],
+      "bytes": 4540,
+      "passed": true
+    },
+    {
+      "file": "docs/site/icons/apple-touch-icon.png",
+      "dimensions": [
+        180,
+        180
+      ],
+      "bytes": 8177,
+      "passed": true
+    },
+    {
+      "file": "docs/site/icons/android-chrome-192x192.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "bytes": 7685,
+      "passed": true
+    },
+    {
+      "file": "docs/site/icons/android-chrome-512x512.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 10461,
+      "passed": true
+    },
+    {
+      "check": "contrast",
+      "foreground": [
+        244,
+        239,
+        231
+      ],
+      "background": [
+        20,
+        32,
+        35
+      ],
+      "message": "Contrast ratio 14.6:1 meets WCAG AAA standards (7.0:1 required)",
+      "passed": true
+    },
+    {
+      "check": "contrast",
+      "foreground": [
+        181,
+        195,
+        190
+      ],
+      "background": [
+        27,
+        43,
+        45
+      ],
+      "message": "Contrast ratio 8.1:1 meets WCAG AAA standards (7.0:1 required)",
+      "passed": true
+    },
+    {
+      "check": "contrast",
+      "foreground": [
+        82,
+        100,
+        91
+      ],
+      "background": [
+        238,
+        232,
+        221
+      ],
+      "message": "Contrast ratio 5.2:1 meets WCAG AA standards (4.5:1 required)",
+      "passed": true
+    },
+    {
+      "check": "contrast",
+      "foreground": [
+        32,
+        48,
+        51
+      ],
+      "background": [
+        232,
+        177,
+        139
+      ],
+      "message": "Contrast ratio 7.2:1 meets WCAG AAA standards (7.0:1 required)",
+      "passed": true
+    }
+  ],
+  "checks": {
+    "node_tests": 15,
+    "python_tests": 215,
+    "frontend_build": "passed; existing chunk-size warning",
+    "git_public_file_check": "passed: 279 Git files"
+  },
+  "limitations": [
+    "No remote deployment or social platform crawl verified",
+    "No system text-scaling or reduced-motion preference changed; reduced-motion CSS inspected",
+    "Not a complete screen-reader or accessibility certification",
+    "No engine or paid-provider acceptance implied"
+  ]
+}

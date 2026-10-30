@@ -1,4 +1,4 @@
-# 造物间：功能介绍与使用指南
+# 游织工坊：功能介绍与使用指南
 
 > 0.19 更新：已提供自带 Python 的 Windows x64 安装候选、系统目录/文件选择、原版 SUNO Skill 装配和只读 WebUI 硬件预检。详细步骤与验证边界见[应用与装配指南](WINDOWS_APP_AND_SETUP.md)；下文旧版本验收记录保留其当时范围。
 
@@ -14,11 +14,11 @@
 
 0.10 新增 [Agent 访问与积分授权](AGENT_ACCESS_GUIDE.md)：按会话开启工作台全功能，分别允许 SUNO/Tripo 自动积分，为 Codex 单独确认整机访问。音乐/Tripo 页可保存项目默认生成模型；增强授权默认关闭。
 
-Windows 应用用户先打开安装包或完整 ZIP 中的 `ZAOWU.exe`，无需准备 Python/Node。默认用户数据独立放在 `%LOCALAPPDATA%/ZAOWU/data`。首次向导可创建免费练习项目，按需装配 Node、Codex、SUNO Skill、Git 或 Blender。项目目录旁的“浏览选择”可打开系统窗口；本机绘画页可先做硬件预检。
+Windows 应用用户先打开安装包或完整 ZIP 中的 `Questweft.exe`，无需准备 Python/Node。默认用户数据独立放在 `%LOCALAPPDATA%/ZAOWU/data`。首次向导可创建免费练习项目，按需装配 Node、Codex、SUNO Skill、Git 或 Blender。项目目录旁的“浏览选择”可打开系统窗口；本机绘画页可先做硬件预检。
 
 ## 1. 产品定位
 
-**造物间是运行在个人电脑上的游戏创作 AI 工作台。** 它把游戏设计讨论、项目资料、任务、资产和执行记录放在同一个工作空间中，项目可选择 Unreal Engine 或 Unity。
+**游织工坊是运行在个人电脑上的游戏创作 AI 工作台。** 它把游戏设计讨论、项目资料、任务、资产和执行记录放在同一个工作空间中，项目可选择 Unreal Engine 或 Unity。
 
 你可以让项目负责人理解设计、起草文档、拆解任务、查看图片、整理进度；切换音乐负责人保存配乐方案，或让建模负责人设计 Blender/Tripo 方案。生成和收费操作按对应工作区审阅确认。项目管理还包括设计变更复核、资产版本、账户额度、工程快照和 GitHub 留存。
 

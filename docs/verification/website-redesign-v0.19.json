@@ -1,0 +1,123 @@
+{
+  "skills": {
+    "ui-ux-pro-max": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+    "web-asset-generator": "c6d56dc54ab86eae4eeb1393d9c8cdc71ae8d1a8"
+  },
+  "assets": [
+    {
+      "path": "site/social/og-image.png",
+      "size": [
+        1200,
+        630
+      ],
+      "bytes": 139162,
+      "sha256": "d3f4cd7394bb72b76cad0a553d0d10c73c6ec5cd35fc80ce92b47b944abde169"
+    },
+    {
+      "path": "site/social/twitter-image.png",
+      "size": [
+        1200,
+        675
+      ],
+      "bytes": 139473,
+      "sha256": "8dab4ac6d6c03e57c8fa79227335b8c3604ec37e8f38e5c6d9cc712b4a568e83"
+    },
+    {
+      "path": "site/icons/favicon-16x16.png",
+      "size": [
+        16,
+        16
+      ],
+      "bytes": 701,
+      "sha256": "db3ac763001cbf1d346c4520d27652aad6b1502dfafb48c8fe7c392c9cf0db6a"
+    },
+    {
+      "path": "site/icons/favicon-32x32.png",
+      "size": [
+        32,
+        32
+      ],
+      "bytes": 1688,
+      "sha256": "a06b8befc880995ba1accd0c9770baf5d2b3c259d91c14b770b1a5da8c22cfe7"
+    },
+    {
+      "path": "site/icons/favicon-96x96.png",
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 4540,
+      "sha256": "3243e362e125505f2c0fd1c4cd5ebcc9a9604c88a46d92ffb6ba3fda95c75f59"
+    },
+    {
+      "path": "site/icons/apple-touch-icon.png",
+      "size": [
+        180,
+        180
+      ],
+      "bytes": 8177,
+      "sha256": "c6709eff84ee7a7174539dda4e37e3069b288e341048dfdf93f84acf0fa21978"
+    },
+    {
+      "path": "site/icons/android-chrome-192x192.png",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 7685,
+      "sha256": "d83d7ef968495305642944078799f849e2b86bfe89d1a85aa1c4d16ad41210da"
+    },
+    {
+      "path": "site/icons/android-chrome-512x512.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 10461,
+      "sha256": "2e374d815e050e170fc07b2ef385c230d7bd58f7c85494f3ce180b14bc7c2854"
+    }
+  ],
+  "case_media_on_pages": false,
+  "browser_viewports_checked": [
+    [
+      1440,
+      960
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      375,
+      812
+    ]
+  ],
+  "browser_checks": [
+    "Chinese and English rendering",
+    "no horizontal overflow",
+    "real download targets",
+    "hardware screenshot switch",
+    "image dialog and Escape",
+    "FAQ keyboard toggle",
+    "no browser console errors"
+  ],
+  "contrast_ratios": {
+    "primary_text": 14.55,
+    "secondary_text": 9.13,
+    "feature_text": 8.05,
+    "paper_text": 5.17,
+    "download_text": 8.74,
+    "primary_action": 7.24
+  },
+  "checks": {
+    "python_tests": 215,
+    "node_tests": 12,
+    "frontend_build": "passed",
+    "reduced_motion": "CSS rule inspected; OS preference not modified"
+  },
+  "deployment": "local verification only; source files must be uploaded before the live site changes"
+}

@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
-  <path d="M24 3 42 13.5v21L24 45 6 34.5v-21L24 3Z" fill="#E8B18B"/>
-  <path d="m14 16 10-6 10 6v16l-10 6-10-6v-6l6 3.5V29l4 2.5 4-2.5v-9.5l-4-2.4-4 2.4V23l-6-3.5V16Z" fill="#161C22"/>
-  <path d="m24 23 4 2.4-10 6-4-2.4 10-6Z" fill="#F8E5D5"/>
-  <path d="m34 16-6 3.5-4-2.4v-7.1l10 6Z" fill="#7D513B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <title>Questweft — AI Indie Game Workbench</title>
+  <defs>
+    <linearGradient id="qw-ribbon" x1="30" y1="24" x2="132" y2="139" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7dfc6"/><stop offset=".48" stop-color="#e8b18b"/><stop offset="1" stop-color="#c68a65"/>
+    </linearGradient>
+    <mask id="qw-weave" maskUnits="userSpaceOnUse" x="0" y="0" width="160" height="160">
+      <path fill="#fff" d="M0 0h160v160H0z"/>
+      <path d="m91 94 46 46" stroke="#000" stroke-width="25" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <path d="M60 29h40q8 0 14 6l11 11q6 6 6 14v40q0 8-6 14l-11 11q-6 6-14 6H60q-8 0-14-6l-11-11q-6-6-6-14V60q0-8 6-14l11-11q6-6 14-6Z" stroke="url(#qw-ribbon)" stroke-width="15" stroke-linejoin="round" mask="url(#qw-weave)"/>
+  <path d="m80 81 52 52" stroke="url(#qw-ribbon)" stroke-width="15" stroke-linecap="round"/>
 </svg>
