@@ -101,3 +101,7 @@ TinyTag 2.3.2 is installed separately for read-only audio metadata validation un
 ## Windows private Python distribution
 
 The Windows app bundles official CPython 3.13.17 under the Python Software Foundation license; see `.runtime/python/LICENSE.txt`. Dependency wheel metadata and their license files are retained under `.runtime/python/Lib/site-packages`. Source code MIT terms do not relicense these components. The original SUNO Skill is downloaded from its provider only after setup confirmation and is not bundled or relicensed. Windows system components (.NET Framework, Windows Forms) are not redistributed.
+
+## Case-study neural narration
+
+The Beacon Route video uses the `vits-melo-tts-zh_en` model converted from MyShell.ai MeloTTS, with the package's MIT license and copyright (c) 2024 MyShell.ai retained in `docs/verification/local-voice-license.txt`. Speech is synthesized locally using sherpa-onnx 2.0.1 (Apache-2.0), CPU inference, and a preset Chinese female voice. The model and inference tools are video-production dependencies, not bundled workbench runtime components. Sources: https://github.com/myshell-ai/MeloTTS and https://github.com/k2-fsa/sherpa-onnx .

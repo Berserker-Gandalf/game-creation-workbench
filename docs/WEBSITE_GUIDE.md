@@ -1,6 +1,6 @@
 # 介绍与下载网站
 
-网站源文件位于 `docs/index.html` 与 `docs/site/`，复用 `docs/verification/` 中已有的示例截图。它是独立静态介绍页，不连接工作台的本机 API，不承载用户项目，不需要服务器运行 Python。
+网站源文件位于 `docs/index.html` 与 `docs/site/`。v0.19.1 的功能截图位于 `docs/site/screens/`；原有 `docs/verification/` 保留历史证据。它是独立静态介绍页，不连接工作台的本机 API，不承载用户项目，不需要服务器运行 Python。
 
 ## 页面内容与本地预览
 

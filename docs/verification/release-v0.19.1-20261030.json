@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-30",
+  "version": "0.19.1",
+  "status": "local prerelease candidate; owner upload pending",
+  "checks": {
+    "python_tests": 216,
+    "python_warning": "Existing Starlette TestClient httpx deprecation warning",
+    "node_tests": 19,
+    "frontend_build": "passed, including bilingual string checks",
+    "build_warning": "Existing chunks over 500 kB",
+    "public_files": "passed; manual review still required",
+    "screenshots_and_icons": "Validated PNG dimensions, shared SVG equality, icon sizes and twelve bilingual screenshots",
+    "legacy_release_transition": "Legacy fixture is independent of live download metadata; new-brand and legacy downloads are tested separately"
+  },
+  "changes": [
+    "New-name generated executables are excluded from Git.",
+    "Publishing guide now describes the existing remote and avoids unrelated-history force pushes.",
+    "Upload instructions distinguish repository source, hidden-file editing, six Release assets and post-publication download switching."
+  ],
+  "package_evidence": "The upload kit CHECKS.json records final artifact sizes, SHA-256 hashes, archive file verification and isolated packaged-runtime smoke checks after rebuilding.",
+  "boundaries": [
+    "No remote commit, tag, Release, Pages deployment or authenticated account action was performed.",
+    "Live repository and website retrieval did not yield a usable current remote snapshot in this verification.",
+    "Windows package smoke checks use isolated data and do not prove clean-system GUI installation.",
+    "No code signing, paid generation or Unity/Unreal runtime acceptance.",
+    "Earlier responsive/browser evidence remains dated 2026-10-29 in brand-v0.19.1.json."
+  ]
+}

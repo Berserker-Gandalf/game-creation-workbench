@@ -23,7 +23,7 @@ def problems(relative, raw):
         issues.append('private or generated path')
     if relative.suffix in ('.db', '.sqlite3', '.key', '.pem') or relative.name in ('auth.json', 'credentials.json'):
         issues.append('credential or database file')
-    if len(relative.parts) == 1 and (relative.name in ('packaged.json', 'SHA256SUMS.json') or relative.name.startswith('ZAOWU') and relative.suffix.lower() == '.exe'):
+    if len(relative.parts) == 1 and (relative.name in ('packaged.json', 'SHA256SUMS.json') or relative.name.startswith(('ZAOWU', 'Questweft')) and relative.suffix.lower() == '.exe'):
         issues.append('generated Windows distribution file')
     if len(raw) > 5 * 1024 * 1024:
         issues.append('file exceeds 5 MB source limit')

@@ -20,9 +20,9 @@ class Launcher {
                 var output = process.StandardOutput.ReadToEndAsync();
                 var error = process.StandardError.ReadToEndAsync();
                 process.WaitForExit();
-                if (process.ExitCode != 0) MessageBox.Show(output.Result + "\n" + error.Result, "ZAOWU - Start / Stop", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (process.ExitCode != 0) MessageBox.Show(output.Result + "\n" + error.Result, "Questweft - Start / Stop", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return process.ExitCode;
             }
-        } catch (Exception e) { MessageBox.Show(e.Message, "ZAOWU", MessageBoxButtons.OK, MessageBoxIcon.Error); return 1; }
+        } catch (Exception e) { MessageBox.Show(e.Message, "Questweft", MessageBoxButtons.OK, MessageBoxIcon.Error); return 1; }
     }
 }

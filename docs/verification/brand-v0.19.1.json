@@ -1,0 +1,518 @@
+{
+  "date": "2026-10-29",
+  "version": "0.19.1",
+  "brand": "游织工坊 Questweft",
+  "status": "local release candidate; not uploaded",
+  "logo_sha256": "e262093223196580f1cf0e6149bcec37c2e7ee1763e589c987eb401faddc813c",
+  "screenshots": [
+    {
+      "view": "workspace",
+      "language": "zh",
+      "path": "docs/site/screens/workspace-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 429779,
+      "sha256": "01482e075a7b588d26ea9198866aac322a3e24cfd3965b71514dae7b38069df3"
+    },
+    {
+      "view": "design",
+      "language": "zh",
+      "path": "docs/site/screens/design-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 414219,
+      "sha256": "9ba3f064b18648f83cde7a7532f05d8446f78e9a0104f756d2897575d6415fdb"
+    },
+    {
+      "view": "tasks",
+      "language": "zh",
+      "path": "docs/site/screens/tasks-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 420345,
+      "sha256": "42b00babc066a4549618af8d1f52ca2cb16d0b36d135ce5b8cd1ee18a685e53a"
+    },
+    {
+      "view": "music",
+      "language": "zh",
+      "path": "docs/site/screens/music-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 357513,
+      "sha256": "f00bedfcd666488b8cdab9a5cc33eb7dec7eb19b84e6fb69c3ff543834845157"
+    },
+    {
+      "view": "modeling",
+      "language": "zh",
+      "path": "docs/site/screens/modeling-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 389588,
+      "sha256": "59143cab53fec51159ad932269ed9ff8df4c197525479f849b050cc0d848dd07"
+    },
+    {
+      "view": "hardware",
+      "language": "zh",
+      "path": "docs/site/screens/hardware-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 434172,
+      "sha256": "d657004b795948578457332d582cb569624ad1c17fbaf34b627ea099104514c4"
+    },
+    {
+      "view": "workspace",
+      "language": "en",
+      "path": "docs/site/screens/workspace-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 423208,
+      "sha256": "9e7980a6d72f0bed3ce17545f1b4e5f5fa8731112c3af3e9b99dc4518b1a5760"
+    },
+    {
+      "view": "design",
+      "language": "en",
+      "path": "docs/site/screens/design-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 417419,
+      "sha256": "3a750f9a5001b8c79731b2349209cfad630244a80b05405afe58bcbe69da6abc"
+    },
+    {
+      "view": "tasks",
+      "language": "en",
+      "path": "docs/site/screens/tasks-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 438682,
+      "sha256": "4bf17b154fb8bb54f9bb1822e25674a132bf6c0602496546057aff8fff18a5cb"
+    },
+    {
+      "view": "music",
+      "language": "en",
+      "path": "docs/site/screens/music-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 384390,
+      "sha256": "b08e8c09cf9108bd8711b2380a1a1ba1969ffcffb99af1f5509b5122a926bfa0"
+    },
+    {
+      "view": "modeling",
+      "language": "en",
+      "path": "docs/site/screens/modeling-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 417388,
+      "sha256": "46c75dd6a9b1caeb99b62e1148793c1f0870fd04ebeac30e67601c5188796368"
+    },
+    {
+      "view": "hardware",
+      "language": "en",
+      "path": "docs/site/screens/hardware-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 470162,
+      "sha256": "46457573dcfd41f976ddcd2a8aaa117501a67841170b8d0214d37201580279f6"
+    }
+  ],
+  "image_assets": [
+    {
+      "path": "docs/site/icons/android-chrome-192x192.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "sha256": "6e46731d478b1d6cbbcb59cf7c15c64c0fff26834dd3e5b2ef16faa1bc9b2565"
+    },
+    {
+      "path": "docs/site/icons/android-chrome-512x512.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "dec03aeebde7d1971ddf4979c79c7a9a9f413a88e003ca1fe768e1f2a3f85a2f"
+    },
+    {
+      "path": "docs/site/icons/apple-touch-icon.png",
+      "dimensions": [
+        180,
+        180
+      ],
+      "sha256": "ef894da48451a0e689fd1b4eb2ee36c8bde66686001adeb0bd4774e7ecc0f982"
+    },
+    {
+      "path": "docs/site/icons/favicon-16x16.png",
+      "dimensions": [
+        16,
+        16
+      ],
+      "sha256": "07eef109c9532ff222c0efc27b0cdead8c21ddc9f22c67c92665ed406b80fde2"
+    },
+    {
+      "path": "docs/site/icons/favicon-32x32.png",
+      "dimensions": [
+        32,
+        32
+      ],
+      "sha256": "1b413c5ae1eea69febf4875ad95600758d9fcbae42c3304bd1a4cf57a61e6bcc"
+    },
+    {
+      "path": "docs/site/icons/favicon-96x96.png",
+      "dimensions": [
+        96,
+        96
+      ],
+      "sha256": "4aaa65b959842de2ed10f4dc28a87ba99558bd9440f5472365a4f03b0290957c"
+    },
+    {
+      "path": "docs/site/screens/design-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "3a750f9a5001b8c79731b2349209cfad630244a80b05405afe58bcbe69da6abc"
+    },
+    {
+      "path": "docs/site/screens/design-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "9ba3f064b18648f83cde7a7532f05d8446f78e9a0104f756d2897575d6415fdb"
+    },
+    {
+      "path": "docs/site/screens/hardware-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "46457573dcfd41f976ddcd2a8aaa117501a67841170b8d0214d37201580279f6"
+    },
+    {
+      "path": "docs/site/screens/hardware-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "d657004b795948578457332d582cb569624ad1c17fbaf34b627ea099104514c4"
+    },
+    {
+      "path": "docs/site/screens/modeling-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "46c75dd6a9b1caeb99b62e1148793c1f0870fd04ebeac30e67601c5188796368"
+    },
+    {
+      "path": "docs/site/screens/modeling-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "59143cab53fec51159ad932269ed9ff8df4c197525479f849b050cc0d848dd07"
+    },
+    {
+      "path": "docs/site/screens/music-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "b08e8c09cf9108bd8711b2380a1a1ba1969ffcffb99af1f5509b5122a926bfa0"
+    },
+    {
+      "path": "docs/site/screens/music-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "f00bedfcd666488b8cdab9a5cc33eb7dec7eb19b84e6fb69c3ff543834845157"
+    },
+    {
+      "path": "docs/site/screens/tasks-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "4bf17b154fb8bb54f9bb1822e25674a132bf6c0602496546057aff8fff18a5cb"
+    },
+    {
+      "path": "docs/site/screens/tasks-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "42b00babc066a4549618af8d1f52ca2cb16d0b36d135ce5b8cd1ee18a685e53a"
+    },
+    {
+      "path": "docs/site/screens/thumb-modeling-en.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "f39e0c16709ce4e752efcbe39be0d4dc3d4ec1a11eeb1fbff2fda9c876e3252d"
+    },
+    {
+      "path": "docs/site/screens/thumb-modeling-zh.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "3790604a16ee26ae0a9679bb422d6aad8d38bac9a67afbbe7a20857c7a67cc7d"
+    },
+    {
+      "path": "docs/site/screens/thumb-music-en.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "83cf836f9e7cd6590213d2cf29a1eeb9aba6ff4d02b2b507fabd65cfd83b79a1"
+    },
+    {
+      "path": "docs/site/screens/thumb-music-zh.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "88e7cd309e4cfb735a866db01255d16025f9e3056c5a954f17dcd2f1e9b1554a"
+    },
+    {
+      "path": "docs/site/screens/thumb-tasks-en.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "a393133d7f63d2297376d0894154044d917357e9dcb30b6799252305f95be643"
+    },
+    {
+      "path": "docs/site/screens/thumb-tasks-zh.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "fb21fbb1eebc59fc7c0174f9201a654960a9797bae0f43bc80923d40eeeb9139"
+    },
+    {
+      "path": "docs/site/screens/thumb-workspace-en.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "b5f9d67b2f9b23907532348ce5983db2c5528caac38eca0f91e091a943bd703c"
+    },
+    {
+      "path": "docs/site/screens/thumb-workspace-zh.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "sha256": "990876bd0bffe9e52d9bb06bea399ec5f148a6a031ceed4665b992e66940ad65"
+    },
+    {
+      "path": "docs/site/screens/workspace-en.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "9e7980a6d72f0bed3ce17545f1b4e5f5fa8731112c3af3e9b99dc4518b1a5760"
+    },
+    {
+      "path": "docs/site/screens/workspace-zh.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "01482e075a7b588d26ea9198866aac322a3e24cfd3965b71514dae7b38069df3"
+    },
+    {
+      "path": "docs/site/social/og-image.png",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "sha256": "8c99f591a225dcb0a83821199c9e5464d6f95e4e742f4811e26cfbd2e330951f"
+    },
+    {
+      "path": "docs/site/social/twitter-image.png",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "sha256": "bb97ba5cb8cd1442281b9895553280d69a5bfeab7f892283ce70ea8e343d1c7a"
+    }
+  ],
+  "responsive": [
+    {
+      "clientWidth": 305,
+      "headerHeight": 114.33333587646484,
+      "height": 812,
+      "language": "zh-CN",
+      "scrollWidth": 305,
+      "title": "游织工坊 Questweft｜AI 独立游戏制作与项目管理工作台",
+      "width": 320
+    },
+    {
+      "clientWidth": 360,
+      "headerHeight": 114.33333587646484,
+      "height": 812,
+      "language": "zh-CN",
+      "scrollWidth": 360,
+      "title": "游织工坊 Questweft｜AI 独立游戏制作与项目管理工作台",
+      "width": 375
+    },
+    {
+      "clientWidth": 625,
+      "headerHeight": 112.52083587646484,
+      "height": 900,
+      "language": "zh-CN",
+      "scrollWidth": 625,
+      "title": "游织工坊 Questweft｜AI 独立游戏制作与项目管理工作台",
+      "width": 640
+    },
+    {
+      "clientWidth": 753,
+      "headerHeight": 88.66667175292969,
+      "height": 1024,
+      "language": "zh-CN",
+      "scrollWidth": 753,
+      "title": "游织工坊 Questweft｜AI 独立游戏制作与项目管理工作台",
+      "width": 768
+    },
+    {
+      "clientWidth": 797,
+      "headerHeight": 88.66667175292969,
+      "height": 375,
+      "language": "zh-CN",
+      "scrollWidth": 797,
+      "title": "游织工坊 Questweft｜AI 独立游戏制作与项目管理工作台",
+      "width": 812
+    },
+    {
+      "clientWidth": 1009,
+      "headerHeight": 88.66667175292969,
+      "height": 768,
+      "language": "zh-CN",
+      "scrollWidth": 1009,
+      "title": "游织工坊 Questweft｜AI 独立游戏制作与项目管理工作台",
+      "width": 1024
+    },
+    {
+      "clientWidth": 1425,
+      "headerHeight": 88.66667175292969,
+      "height": 1000,
+      "language": "zh-CN",
+      "scrollWidth": 1425,
+      "title": "游织工坊 Questweft｜AI 独立游戏制作与项目管理工作台",
+      "width": 1440
+    },
+    {
+      "clientWidth": 305,
+      "headerHeight": 114.33333587646484,
+      "height": 812,
+      "language": "en",
+      "scrollWidth": 305,
+      "title": "Questweft — AI Indie Game Development Workbench",
+      "width": 320
+    },
+    {
+      "clientWidth": 360,
+      "headerHeight": 114.33333587646484,
+      "height": 812,
+      "language": "en",
+      "scrollWidth": 360,
+      "title": "Questweft — AI Indie Game Development Workbench",
+      "width": 375
+    },
+    {
+      "clientWidth": 625,
+      "headerHeight": 112.52083587646484,
+      "height": 900,
+      "language": "en",
+      "scrollWidth": 625,
+      "title": "Questweft — AI Indie Game Development Workbench",
+      "width": 640
+    },
+    {
+      "clientWidth": 753,
+      "headerHeight": 88.66667175292969,
+      "height": 1024,
+      "language": "en",
+      "scrollWidth": 753,
+      "title": "Questweft — AI Indie Game Development Workbench",
+      "width": 768
+    },
+    {
+      "clientWidth": 797,
+      "headerHeight": 88.66667175292969,
+      "height": 375,
+      "language": "en",
+      "scrollWidth": 797,
+      "title": "Questweft — AI Indie Game Development Workbench",
+      "width": 812
+    },
+    {
+      "clientWidth": 1009,
+      "headerHeight": 88.66667175292969,
+      "height": 768,
+      "language": "en",
+      "scrollWidth": 1009,
+      "title": "Questweft — AI Indie Game Development Workbench",
+      "width": 1024
+    },
+    {
+      "clientWidth": 1425,
+      "headerHeight": 88.66667175292969,
+      "height": 1000,
+      "language": "en",
+      "scrollWidth": 1425,
+      "title": "Questweft — AI Indie Game Development Workbench",
+      "width": 1440
+    }
+  ],
+  "browser_checks": [
+    "Chinese and English titles and descriptions switch with the interface.",
+    "Hero End-key selects modeling; detailed gallery independently selects hardware.",
+    "Full-size hardware dialog opens with the corresponding original-image URL; Escape closes it.",
+    "Language switch preserves both selected views and updates image URLs.",
+    "Legacy v0.19.0 download names remain accurate with a visible legacy-brand notice.",
+    "320px English header is about 114px high after the brand typography adjustment."
+  ],
+  "automated_checks": {
+    "python_tests": 216,
+    "node_tests": 18,
+    "frontend_build": "passed",
+    "frontend_build_note": "Existing chunks over 500 kB warning retained.",
+    "icon_and_share_asset_validation": "passed using Web Asset Generator scripts"
+  },
+  "limits": [
+    "Screens are real local interface captures from isolated sample data; they do not prove live provider generation.",
+    "Hardware preflight is read-only; no WebUI model generation or engine runtime was executed.",
+    "No paid API requests, permission expansion, project migration or data reset.",
+    "The final site was checked through browser DOM and geometry; the browser screenshot API became unavailable during final layout checks.",
+    "Historical verification JSON and media retain their original brand and hashes.",
+    "No GitHub upload, Pages deployment, search indexing, clean Windows installation or code signing is claimed."
+  ]
+}

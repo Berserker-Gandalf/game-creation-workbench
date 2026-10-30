@@ -13,8 +13,9 @@ LOCK = asyncio.Lock()
 
 
 async def executable():
-    bundled = store.ROOT / 'ZAOWU-Picker.exe'
-    if bundled.is_file(): return bundled
+    for name in ('Questweft-Picker.exe', 'ZAOWU-Picker.exe'):
+        bundled = store.ROOT / name
+        if bundled.is_file(): return bundled
     source = store.ROOT / 'scripts/windows/Picker.cs'
     digest = hashlib.sha256(source.read_bytes()).hexdigest()[:16]
     target = store.DATA / 'tools/picker' / (digest + '.exe')

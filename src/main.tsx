@@ -107,7 +107,7 @@ function App() {
   }, [projectId, chatBusy, actionRunning]);
   return <div className="app-shell">
     <aside className="sidebar">
-      <a className="brand" href="#" onClick={e => { e.preventDefault(); if (chatBusy && pageAgent(page) !== 'director') setError(tr("对话运行中，请先停止生成再切换负责人")); else setPage('overview'); }}><span className="brand-mark"><Logo/></span><span className="brand-name">{tr("造物间")}<small>GAME CREATION STUDIO</small></span></a>
+      <a className="brand" href="#" onClick={e => { e.preventDefault(); if (chatBusy && pageAgent(page) !== 'director') setError(tr("对话运行中，请先停止生成再切换负责人")); else setPage('overview'); }}><span className="brand-mark"><Logo/></span><span className="brand-name">{tr("游织工坊")}<small>AI GAME WORKBENCH</small></span></a>
       <div className="project-switch"><FolderOpen size={17}/><select aria-label={tr("当前项目")} disabled={chatBusy} value={projectId} onChange={e => setProjectId(e.target.value)}><option value="">{tr("选择项目")}</option>{boot?.projects?.map((p: Project) => <option key={p.id} value={p.id}>{p.name}</option>)}</select><ChevronDown size={14}/></div>
       <button className="new-project" disabled={chatBusy} onClick={() => setCreating(true)}><Plus size={16}/> {tr("新建游戏项目")}</button>
       <button className="new-project" disabled={chatBusy} onClick={() => setImporting(true)}><FolderOpen size={16}/> {tr("接入已有游戏")}</button>

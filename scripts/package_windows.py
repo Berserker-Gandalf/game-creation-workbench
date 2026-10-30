@@ -36,7 +36,7 @@ def fetch_python(cache):
 def compile_cs(source, output, resources=()):
     compiler = Path(os.environ.get('SystemRoot', 'C:/Windows')) / 'Microsoft.NET/Framework64/v4.0.30319/csc.exe'
     subprocess.run([str(compiler), '/nologo', '/target:winexe', '/platform:anycpu', '/reference:System.Windows.Forms.dll',
-        '/reference:System.IO.Compression.dll', '/reference:System.Web.Extensions.dll', '/reference:Microsoft.CSharp.dll', '/out:' + str(output),
+        '/reference:System.IO.Compression.dll', '/reference:System.Web.Extensions.dll', '/reference:Microsoft.CSharp.dll', '/win32icon:' + str(ROOT / 'public/brand/app.ico'), '/out:' + str(output),
         *['/resource:' + str(path) + ',' + name for path, name in resources], str(source)], check=True)
 
 
@@ -72,21 +72,21 @@ def main():
         '--target', str(runtime / 'Lib/site-packages'), '-r', str(ROOT / 'requirements.lock.txt')], check=True)
     subprocess.run([str(runtime / 'python.exe'), '-B', '-X', 'utf8', '-c', 'import backend.app,sqlite3,ssl,PIL._imaging,pydantic_core; print("Private runtime imports OK")'], cwd=app, check=True)
     (app / 'packaged.json').write_text(json.dumps({'format': 1, 'version': version, 'python': PYTHON, 'python_sha256': PYTHON_SHA256, 'python_source': PYTHON_URL}, indent=2) + '\n', encoding='utf-8')
-    compile_cs(ROOT / 'scripts/windows/Launcher.cs', app / 'ZAOWU.exe')
+    compile_cs(ROOT / 'scripts/windows/Launcher.cs', app / 'Questweft.exe')
     picker = ROOT / 'scripts/windows/Picker.cs'
     compiler = Path(os.environ.get('SystemRoot', 'C:/Windows')) / 'Microsoft.NET/Framework64/v4.0.30319/csc.exe'
-    subprocess.run([str(compiler), '/nologo', '/target:winexe', '/reference:System.Windows.Forms.dll', '/reference:System.Web.Extensions.dll', '/out:' + str(app / 'ZAOWU-Picker.exe'), str(picker)], check=True)
+    subprocess.run([str(compiler), '/nologo', '/target:winexe', '/reference:System.Windows.Forms.dll', '/reference:System.Web.Extensions.dll', '/win32icon:' + str(ROOT / 'public/brand/app.ico'), '/out:' + str(app / 'Questweft-Picker.exe'), str(picker)], check=True)
     hashes = {p.relative_to(app).as_posix(): sha(p) for p in sorted(app.rglob('*')) if p.is_file()}
     (app / 'SHA256SUMS.json').write_text(json.dumps(hashes, indent=2) + '\n', encoding='utf-8')
     releases = ROOT / '.releases'
     releases.mkdir(exist_ok=True)
-    portable = releases / f'ZAOWU-{version}-windows-x64.zip'
+    portable = releases / f'Questweft-{version}-windows-x64.zip'
     with zipfile.ZipFile(portable, 'w', zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(app.rglob('*')):
             if path.is_file(): archive.write(path, path.relative_to(app).as_posix())
     version_file = cache / 'version.txt'
     version_file.write_text(version, encoding='utf-8')
-    installer = releases / f'ZAOWU-{version}-windows-x64-setup.exe'
+    installer = releases / f'Questweft-{version}-windows-x64-setup.exe'
     compile_cs(ROOT / 'scripts/windows/Installer.cs', installer, [(portable, 'payload'), (version_file, 'version')])
     for artifact in (portable, installer):
         artifact.with_suffix(artifact.suffix + '.sha256').write_text(sha(artifact) + '  ' + artifact.name + '\n', encoding='utf-8')

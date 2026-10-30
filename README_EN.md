@@ -1,16 +1,22 @@
-<p align="center"><img src="public/brand/mark.svg" width="88" height="88" alt="ZAOWU logo"></p>
+<p align="center"><img src="public/brand/mark.svg" width="64" height="64" alt="Questweft logo"></p>
 
-# ZAOWU · Game Creation Workbench
+# Questweft · AI Indie Game Development Workbench
 
-**One local workspace for game design, AI creation and project delivery.**
+**An open-source, local AI indie game workbench for Unity / Unreal projects, game design, art, music and 3D modeling.**
 
-[简体中文](README.md) · [User guide](docs/USER_GUIDE.md) · [Technical guide](docs/TECHNICAL_OVERVIEW.md) · [Changelog](CHANGELOG.md)
+**[⬇ Download Windows installer](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/download/v0.19.0/ZAOWU-0.19.0-windows-x64-setup.exe)** · [Portable ZIP](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/download/v0.19.0/ZAOWU-0.19.0-windows-x64.zip) · [Website](https://berserker-gandalf.github.io/game-creation-workbench/) · [简体中文](README.md)
 
-ZAOWU connects an existing Unreal Engine or Unity project with AI conversations, design documents, creative tools, versioned assets and reviewable task delivery. Keep the reasoning behind decisions alongside the files and execution records.
+[Quick start](docs/QUICK_START_AND_SETUP.md) · [▶ 2:54 historical demo (previous brand)](media/case-study/beacon-route-case-zh.mp4) · [Release & checksums](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/tag/v0.19.0) · [Technical guide](docs/TECHNICAL_OVERVIEW.md)
 
-**v0.19.0 experimental · Windows first · Local, single user · Chinese / English UI · MIT source license**
+**Source v0.19.1 · Windows x64 · Local, single user · Chinese / English UI · MIT source license**
 
-![Workbench and conversation controls](docs/verification/workbench-preferences-v0.17.png)
+The project is now Questweft. Public downloads above still use the ZAOWU name at v0.19.0; links will change after the new assets are published. See [branding and compatibility](docs/BRAND_AND_SEARCH.md).
+
+Download, install and open the app, then create a practice project or connect an existing game. Core management includes Python and needs no separate Node installation. Configure creative services as needed. The installer is unsigned; see the [setup guide](docs/WINDOWS_APP_AND_SETUP.md).
+
+**A real case:** Beacon Route is an original browser game with a verified playthrough. See the [recorded preview, scope and controls](docs/CASE_STUDY_BEACON_ROUTE.md), or [get the playable source](examples/beacon-route). The full case narration is Chinese; the game supports English.
+
+Questweft connects an existing Unreal Engine or Unity project with AI conversations, design documents, creative tools, versioned assets and reviewable task delivery. Keep the reasoning behind decisions alongside the files and execution records.
 
 ## A workflow that starts with your existing game
 
@@ -18,6 +24,8 @@ ZAOWU connects an existing Unreal Engine or Unity project with AI conversations,
 2. Discuss with the project, music or modeling lead. Each conversation has its own history, memory and tool scope.
 3. Save a plan, use local tools or explicitly authorized cloud generation, then register outputs as versioned assets.
 4. Adopt a candidate, review the exact asset version, record acceptance and create a verifiable project snapshot.
+
+![Workbench and conversation controls](docs/site/screens/workspace-en.png)
 
 ## Features
 
@@ -35,7 +43,7 @@ ZAOWU connects an existing Unreal Engine or Unity project with AI conversations,
 
 For the Windows app, open `ZAOWU-0.19.0-windows-x64-setup.exe`, or extract the complete Windows ZIP and open `ZAOWU.exe`. Core features need no separate Python or Node installation. [App setup guide](docs/WINDOWS_APP_AND_SETUP.md).
 
-After publication, use this repository's **Releases** page. Artifact availability depends on publication; the supported candidates are:
+Choose the appropriate download from [v0.19.0 Releases](https://github.com/Berserker-Gandalf/game-creation-workbench/releases/tag/v0.19.0):
 
 | Package | Intended use | Python included |
 | --- | --- | --- |
@@ -93,4 +101,4 @@ Default checks use no paid models or game engines. CI is configured for Windows 
 
 [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Release guide](docs/GITHUB_RELEASE.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)
 
-Source code is [MIT licensed](LICENSE). Provider services, models, engines and user assets retain their own terms. ZAOWU is not an official product of OpenAI, DeepSeek, Epic, Unity, SUNO or Tripo.
+Source code is [MIT licensed](LICENSE). Provider services, models, engines and user assets retain their own terms. Questweft is not an official product of OpenAI, DeepSeek, Epic, Unity, SUNO or Tripo.

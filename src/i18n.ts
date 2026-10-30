@@ -50,4 +50,4 @@ export function changeLanguage(next: Language, page: string) {
 }
 
 document.documentElement.lang = language;
-document.title = language === 'en' ? 'ZAOWU · Game Creation Studio' : '造物间 · 游戏创作工作台';
+document.title = t('游织工坊 · AI 独立游戏制作工作台');
