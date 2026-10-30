@@ -39,6 +39,8 @@ jobs:
         run: python -m pytest -q
       - name: Build frontend
         run: npm run build
+      - name: Verify website and playable case
+        run: node --test tests/website.test.mjs tests/beacon-route.test.mjs
       - name: Check public files
         run: python scripts/check_release.py
       - name: Package release candidate
