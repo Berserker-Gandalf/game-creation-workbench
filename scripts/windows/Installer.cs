@@ -13,7 +13,7 @@ class Installer {
     static int Main(string[] args) {
         Application.EnableVisualStyles();
         using (var owner = new Form()) {
-        owner.Text = "ZAOWU Setup";
+        owner.Text = "Questweft Setup";
         owner.Width = 360; owner.Height = 100;
         owner.StartPosition = FormStartPosition.CenterScreen;
         owner.TopMost = true;
@@ -22,13 +22,13 @@ class Installer {
             if (args.Length != 0) return 2;
             string version;
             using (var reader = new StreamReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("version"))) version = reader.ReadToEnd().Trim();
-            string parent = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Programs", "ZAOWU");
-            if (MessageBox.Show(owner, "Install ZAOWU " + version + " for this Windows user?\n\nIncludes Python and the built interface. No Python or Node installation is required for core features.\n\nUser data is kept separately in %LOCALAPPDATA%\\ZAOWU\\data. Existing versions and data will be preserved.\n\n安装造物工作台：自带 Python，项目数据独立保留。下一步可选择安装位置。", "ZAOWU Setup", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) != DialogResult.OK) return 0;
+            string parent = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Programs", "Questweft");
+            if (MessageBox.Show(owner, "Install Questweft " + version + " for this Windows user?\n\nIncludes Python and the built interface. No Python or Node installation is required for core features.\n\nUser data is kept separately in %LOCALAPPDATA%\\ZAOWU\\data. Existing versions and data will be preserved.\n\n安装游织工坊 Questweft：自带 Python，项目数据独立保留。下一步可选择安装位置。", "Questweft Setup", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) != DialogResult.OK) return 0;
             using (var folder = new FolderBrowserDialog()) {
                 folder.Description = "Choose parent folder / 选择安装父目录（将创建版本子目录）";
                 folder.SelectedPath = Directory.Exists(parent) ? parent : Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
                 folder.ShowNewFolderButton = true;
-                var choice = MessageBox.Show(owner, "Use recommended location? / 使用推荐安装位置？\n" + parent, "ZAOWU Setup", MessageBoxButtons.YesNoCancel);
+                var choice = MessageBox.Show(owner, "Use recommended location? / 使用推荐安装位置？\n" + parent, "Questweft Setup", MessageBoxButtons.YesNoCancel);
                 if (choice == DialogResult.No) {
                     if (folder.ShowDialog(owner) != DialogResult.OK) return 0;
                     parent = folder.SelectedPath;
@@ -54,15 +54,15 @@ class Installer {
                 string allowed = Path.GetFullPath(parent).TrimEnd(Path.DirectorySeparatorChar) + Path.DirectorySeparatorChar;
                 if (Path.GetFullPath(stage).StartsWith(allowed, StringComparison.OrdinalIgnoreCase) && Directory.Exists(stage)) Directory.Delete(stage, true);
             }
-            string shortcuts = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Programs), "ZAOWU " + version);
+            string shortcuts = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Programs), "Questweft " + version);
             Directory.CreateDirectory(shortcuts);
-            Shortcut(Path.Combine(shortcuts, "ZAOWU.lnk"), Path.Combine(target, "ZAOWU.exe"), "", target);
-            Shortcut(Path.Combine(shortcuts, "Stop ZAOWU.lnk"), Path.Combine(target, "ZAOWU.exe"), "--stop", target);
+            Shortcut(Path.Combine(shortcuts, "Questweft.lnk"), Path.Combine(target, "Questweft.exe"), "", target);
+            Shortcut(Path.Combine(shortcuts, "Stop Questweft.lnk"), Path.Combine(target, "Questweft.exe"), "--stop", target);
             Shortcut(Path.Combine(shortcuts, "Installation folder.lnk"), "explorer.exe", "\"" + target + "\"", target);
-            if (MessageBox.Show(owner, "Installed / 安装完成\n" + target + "\n\nOpen ZAOWU now? / 现在打开工作台？", "ZAOWU", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
-                System.Diagnostics.Process.Start(Path.Combine(target, "ZAOWU.exe"));
+            if (MessageBox.Show(owner, "Installed / 安装完成\n" + target + "\n\nOpen Questweft now? / 现在打开工作台？", "Questweft", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+                System.Diagnostics.Process.Start(Path.Combine(target, "Questweft.exe"));
             return 0;
-        } catch (Exception e) { MessageBox.Show(owner, e.Message, "ZAOWU Setup", MessageBoxButtons.OK, MessageBoxIcon.Error); return 1; }
+        } catch (Exception e) { MessageBox.Show(owner, e.Message, "Questweft Setup", MessageBoxButtons.OK, MessageBoxIcon.Error); return 1; }
         }
     }
     static void Shortcut(string path, string executable, string args, string working) {
