@@ -15,6 +15,7 @@ __pycache__/
 .runtime/
 /packaged.json
 /ZAOWU*.exe
+/Questweft*.exe
 /SHA256SUMS.json
 .coverage
 htmlcov/
