@@ -1,6 +1,29 @@
 {
-  "recommendations": [
-    "ms-python.python",
-    "ms-python.debugpy"
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "工作台：运行与调试",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "backend.run",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "windows": {
+        "python": "${workspaceFolder}/.venv/Scripts/python.exe"
+      },
+      "args": ["--port", "8765"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "redirectOutput": true,
+      "justMyCode": true,
+      "env": {
+        "PYTHONUTF8": "1"
+      },
+      "preLaunchTask": "工作台：构建界面",
+      "serverReadyAction": {
+        "pattern": "Uvicorn running on (http://127\\.0\\.0\\.1:8765)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    }
   ]
 }
